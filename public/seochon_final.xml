@@ -1,0 +1,3343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<store>
+		<category>카페</category>
+		<name>신옛찻집</name>
+		<address>서울 종로구 인사동길 47-8</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>인사동 뽕다방</name>
+		<address>서울 종로구 인사동길 30-10</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>가화당</name>
+		<address>서울 종로구 삼청로4길 16-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>커피방앗간</name>
+		<address>서울 종로구 북촌로5가길 8-11</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>서울서둘째로잘하는집</name>
+		<address>서울 종로구 삼청로 122-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>CAFÉ D 55</name>
+		<address>서울 종로구 삼청로5길 5</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>레이어드</name>
+		<address>서울 종로구 북촌로2길 2-3</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>르브리에</name>
+		<address>서울 종로구 삼청로 75-8</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>보라 삼청본점</name>
+		<address>서울 종로구 율곡로3길 75-3</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>커피 팩토리</name>
+		<address>서울 종로구 북촌로5가길 17</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>우드앤브릭 레스토랑</name>
+		<address>서울 종로구 북촌로5길 14</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페죠꽁드</name>
+		<address>서울 종로구 삼청로 90-3</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페 골목숲</name>
+		<address>서울 종로구 삼청로 86-3</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>빈스빈스 삼청점</name>
+		<address>서울 종로구 삼청로9길 3-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>북스쿡스</name>
+		<address>서울 종로구 북촌로8길 5</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페 인 스페이스</name>
+		<address>서울 종로구 율곡로 83</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>연</name>
+		<address>서울 종로구 삼청로 84-3</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>티테라피</name>
+		<address>서울 종로구 윤보선길 74</address>
+		<tags>[1,3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>달</name>
+		<address>서울 종로구 삼청로 94-1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>북촌빙수</name>
+		<address>서울 종로구 삼청로 71-2</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>꾸까 광화문점</name>
+		<address>서울 종로구 율곡로 1</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>힐링타로&amp;카페</name>
+		<address>서울 종로구 북촌로5길 19-15</address>
+		<tags>[1,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>빅스트로우 북촌점</name>
+		<address>서울 종로구 북촌로5길 6</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>망고랑</name>
+		<address>서울 종로구 계동길 112</address>
+		<tags>[3,4,5]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>레트로나파이 삼청점</name>
+		<address>서울 종로구 팔판길 39</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>Cflamingo</name>
+		<address>서울 종로구 북촌로5길 64</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>프릳츠 원서점</name>
+		<address>서울 종로구 율곡로 83</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페 포엠</name>
+		<address>서울 종로구 북촌로5길 19-4</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>호아드</name>
+		<address>서울 종로구 율곡로1길 54-3</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>반짝반짝빛나는</name>
+		<address>서울 종로구 인사동길 28-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>달새는 달만 생각한다</name>
+		<address>서울 종로구 인사동12길 14-3</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>오설록티하우스 인사동점</name>
+		<address>서울 종로구 인사동길 45-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>2Cats</name>
+		<address>서울 종로구 인사동길 11-1</address>
+		<tags>[1,5,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>수요일</name>
+		<address>서울 종로구 인사동길 36</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>비밀정원</name>
+		<address>서울 종로구 인사동길 30-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>전통다원</name>
+		<address>서울 종로구 인사동10길 11-4</address>
+		<tags>[1]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>도채비도 반한 찻집</name>
+		<address>서울 종로구 인사동길 45</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>오가다 인사동점</name>
+		<address>서울 종로구 인사동길 60</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페트루어스</name>
+		<address>서울 종로구 인사동길 11</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>슬로우레시피</name>
+		<address>서울 종로구 자하문로10길 8</address>
+		<tags>[2.3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>서울커피상회</name>
+		<address>서울 종로구 자하문로7길 67-2</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>스펙터</name>
+		<address>서울 종로구 필운대로6길 23-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>통인동 커피공방</name>
+		<address>서울 종로구 자하문로 41-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>프리시즌</name>
+		<address>서울 종로구 자하문로6길 9</address>
+		<tags>[1]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>통인 스윗</name>
+		<address>서울 종로구 자하문로7길 50</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페ym</name>
+		<address>서울 종로구 자하문로7길 21</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>베어카페</name>
+		<address>서울 종로구 자하문로24길 24</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페 스프링</name>
+		<address>서울 종로구 자하문로6길 10</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>mk2</name>
+		<address>서울 종로구 자하문로10길 17</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>미라보쇼콜라</name>
+		<address>서울 종로구 자하문로5길 6</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼청동수제비</name>
+		<address>서울 종로구 삼청로 101-1</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>콩지POT지</name>
+		<address>서울 종로구 북촌로 21-15</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>북막골</name>
+		<address>서울 종로구 삼청로 124-6</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>깡통만두</name>
+		<address>서울 종로구 북촌로2길 5-6</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>수와래</name>
+		<address>서울 종로구 삼청로 82</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼청동호떡</name>
+		<address>서울 종로구 율곡로3길 82-6</address>
+		<tags>[2,3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>경춘자의 라면땡기는 날</name>
+		<address>서울 종로구 율곡로3길 82</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이태리재</name>
+		<address>서울 종로구 율곡로1길 74-9</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>대장장이 화덕피자</name>
+		<address>서울 종로구 북촌로 42-4</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>2046팬스테이크 본점</name>
+		<address>서울 종로구 북촌로4길 20</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>르꼬숑</name>
+		<address>서울 종로구 삼청로 133-4</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>눈나무집</name>
+		<address>서울 종로구 삼청로 136-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>황생가 칼국수</name>
+		<address>서울 종로구 북촌로5길 78</address>
+		<tags>[3.4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>부띠끄 경성</name>
+		<address>서울 종로구 삼청로 75-5</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>스미스가 좋아하는 한옥</name>
+		<address>서울 종로구 삼청로 22-7</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>긴자바이린 종로점</name>
+		<address>서울 종로구 율곡로1길 37</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>풍년쌀농산</name>
+		<address>서울 종로구 북촌로5가길 32</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>다이닝 인 스페이스</name>
+		<address>서울 종로구 율곡로 83</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>큰기와집</name>
+		<address>서울 종로구 북촌로5길 62</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>먹쉬돈나 삼청동점</name>
+		<address>서울 종로구 율곡로3길 74-7</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>올마이티 치즈버거</name>
+		<address>서울 종로구 율곡로3길 74-3</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>조선김밥</name>
+		<address>서울 종로구 율곡로1길 78</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>후스테이블</name>
+		<address>서울 종로구 창덕궁1가길 8</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>몽중헌 안국점</name>
+		<address>서울 종로구 북촌로 31-22</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>청수정</name>
+		<address>서울 종로구 삼청로 91</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>소선재</name>
+		<address>서울 종로구 삼청로 113-1</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>화양연화</name>
+		<address>서울 종로구 계동길 73-1</address>
+		<tags>[2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>다락정</name>
+		<address>서울 종로구 삼청로 131-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼청화</name>
+		<address>서울 종로구 북촌로5가길 17-5</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>옴레스토랑 삼청동점</name>
+		<address>서울 종로구 삼청로 129</address>
+		<tags>[1,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>그릴데미그라스 종로점</name>
+		<address>서울 종로구 팔판길 1-8</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>온마을</name>
+		<address>서울 종로구 삼청로 127</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>단풍나무집 삼청점</name>
+		<address>서울 종로구 삼청로 130</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>버거뱅</name>
+		<address>서울 종로구 창덕궁길 29</address>
+		<tags>[1,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>기와탭룸</name>
+		<address>서울 종로구 율곡로1길 74-7</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>만정</name>
+		<address>서울 종로구 삼청로 124-2</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>용수산 비원점</name>
+		<address>서울 종로구 창덕궁1길 2</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>경성 함박</name>
+		<address>서울 종로구 삼청로 84</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>누들박스 삼청점</name>
+		<address>서울 종로구 삼청로 108</address>
+		<tags>[1,3,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>로마네꽁띠 삼청점</name>
+		<address>서울 종로구 북촌로5나길 83-6</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>북촌도담</name>
+		<address>서울 종로구 북촌로1길 9</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>떼레노</name>
+		<address>서울 종로구 북촌로 71</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>병우네</name>
+		<address>서울 종로구 삼청로7길 19-13</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>황금정</name>
+		<address>서울 종로구 북촌로 4</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>편안한 집</name>
+		<address>서울 종로구 북촌로 133</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>두레유</name>
+		<address>서울 종로구 북촌로 65</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>반타이</name>
+		<address>서울 종로구 율곡로 65</address>
+		<tags>[2,3,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>별궁식당</name>
+		<address>서울 종로구 윤보선길 19-16</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>순남시래기 삼청동점</name>
+		<address>서울 종로구 삼청로 110-3</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마산해물아구찜</name>
+		<address>서울 종로구 북촌로5길 6</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>뿌리온더플레이트</name>
+		<address>서울 종로구 계동길 57</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>호랑이카레</name>
+		<address>서울 종로구 계동길 112</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>더레스토랑</name>
+		<address>서울 종로구 삼청로 54</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>찜앤족</name>
+		<address>서울 종로구 계동길 63</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>부영 도가니탕</name>
+		<address>서울 종로구 삼청로10길 13</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>데저트피자</name>
+		<address>서울 종로구 삼청로 75-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>두가헌</name>
+		<address>서울 종로구 삼청로 14</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>비엣 꽌</name>
+		<address>서울 종로구 북촌로4길 20</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>스시고</name>
+		<address>서울 종로구 삼청로 101</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>비어셰프</name>
+		<address>서울 종로구 윤보선길 34-1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>스미스가 좋아하는 테라스</name>
+		<address>서울 종로구 삼청로 135-3</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>산체스 막걸리</name>
+		<address>서울 종로구 윤보선길 26</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼청동궁물떡볶이</name>
+		<address>서울 종로구 삼청로 101</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>만수옥</name>
+		<address>서울 종로구 북촌로 3</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>전다</name>
+		<address>서울 종로구 북촌로4길 24</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>힛더스팟 삼청점</name>
+		<address>서울 종로구 북촌로5길 74</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>복정식당</name>
+		<address>서울 종로구 삼청로 76</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>북촌해물</name>
+		<address>서울 종로구 북촌로5길 10</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>와인이지</name>
+		<address>서울 종로구 계동길 5</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>청기와치킨</name>
+		<address>서울 종로구 북촌로 24</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>미락치킨 경복궁본점</name>
+		<address>서울 종로구 자하문로 17-1</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>서촌 계단집</name>
+		<address>서울 종로구 자하문로1길 15</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>토속촌 삼계탕</name>
+		<address>서울 종로구 자하문로5길 5</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>체부동잔치집</name>
+		<address>서울 종로구 자하문로1길 16</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이태리총각 서촌점</name>
+		<address>서울 종로구 자하문로9길 11</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>영화루</name>
+		<address>서울 종로구 자하문로7길 65</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>취치엔</name>
+		<address>서울 종로구 자하문로7길 9</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>까델루뽀</name>
+		<address>서울 종로구 자하문로16길 5-5</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>안주마을</name>
+		<address>서울 종로구 자하문로1길 5</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마라샹궈</name>
+		<address>서울 종로구 자하문로 31-6</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>포담</name>
+		<address>서울 종로구 자하문로9길 11</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>라면점빵</name>
+		<address>서울 종로구 자하문로1길 39</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>갈리나데이지</name>
+		<address>서울 종로구 자하문로13길 1-4</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>나의 아름다운 세탁소 종로점</name>
+		<address>서울 종로구 자하문로7길 19</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>서촌길돈까스</name>
+		<address>서울 종로구 자하문로 17-2</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>가스트로통</name>
+		<address>서울 종로구 자하문로6길 11-36</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>효자바베</name>
+		<address>서울 종로구 자하문로1길 42</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>올리바가든</name>
+		<address>서울 종로구 자하문로 16</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>효자동초밥</name>
+		<address>서울 종로구 자하문로 14</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>송스키친</name>
+		<address>서울 종로구 필운대로 35-3</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>따빠스구르메</name>
+		<address>서울 종로구 자하문로9길 7</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>잘빠진메밀</name>
+		<address>서울 종로구 자하문로 41-1</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>전대감댁</name>
+		<address>서울 종로구 자하문로1나길 7-17</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>고기의 잔치</name>
+		<address>서울 종로구 자하문로1길 49</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>원조할머니 떡볶이집</name>
+		<address>서울 종로구 자하문로15길 13</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>솔가헌</name>
+		<address>서울 종로구 자하문로 54</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>호질</name>
+		<address>서울 종로구 자하문로9길 15</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>경복궁 박광일참치</name>
+		<address>서울 종로구 자하문로 26-1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>메밀꽃필무렵</name>
+		<address>서울 종로구 효자로 31-1</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>합스카치</name>
+		<address>서울 종로구 효자로7길 14-1</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>서촌김씨 리스토란테</name>
+		<address>서울 종로구 자하문로16길 4</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>만나분식</name>
+		<address>서울 종로구 필운대로 9-2</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>인왕식당</name>
+		<address>서울 종로구 필운대로6길 17-1</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>돈가쓰살롱</name>
+		<address>서울 종로구 자하문로7길 20</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>서촌기와집</name>
+		<address>서울 종로구 자하문로1길 35</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>랍스타코 서촌점</name>
+		<address>서울 종로구 자하문로9길 11</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>봉평막국수</name>
+		<address>서울 종로구 필운대로 6</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>서촌뜰애우</name>
+		<address>서울 종로구 자하문로1나길 1</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>통인동 아마센</name>
+		<address>서울 종로구 자하문로 43</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>본가궁중족발</name>
+		<address>서울 종로구 자하문로1라길 11-3</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>탑클라우드</name>
+		<address>서울 종로구 종로 51</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이문설농탕</name>
+		<address>서울 종로구 우정국로 38-13</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>청진식당</name>
+		<address>서울 종로구 종로11길 6</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>양반댁</name>
+		<address>서울 종로구 인사동길 19-18</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>참치공방 종각점</name>
+		<address>서울 종로구 종로9길 8</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>도마</name>
+		<address>서울 종로구 인사동8길 6-1</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>미스터시래기 인사동점</name>
+		<address>서울 종로구 인사동5길 14</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼해집</name>
+		<address>서울 종로구 종로11길 10</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>도쿄스테이크 종로타워점</name>
+		<address>서울 종로구 종로 51</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>안다미로</name>
+		<address>서울 종로구 인사동8길 6-3</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>플러스84</name>
+		<address>서울 종로구 인사동16길 6</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>사동면옥</name>
+		<address>서울 종로구 인사동8길 9</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼숙이라면</name>
+		<address>서울 종로구 종로11길 30</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>조금</name>
+		<address>서울 종로구 인사동길 62-4</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>발우공양</name>
+		<address>서울 종로구 우정국로 56</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>툇마루집 된장예술</name>
+		<address>서울 종로구 인사동4길 5-26</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>개성만두 궁</name>
+		<address>서울 종로구 인사동10길 11-3</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>정선할매 곤드레밥</name>
+		<address>서울 종로구 인사동8길 13</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>하노이의 아침</name>
+		<address>서울 종로구 인사동5길 11</address>
+		<tags>[1,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>천둥소리</name>
+		<address>서울 종로구 인사동길 22-3</address>
+		<tags>[2,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>인사동 마늘보쌈</name>
+		<address>서울 종로구 인사동8길 12-5</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>뽕신 종로점</name>
+		<address>서울 종로구 종로 77</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>계절밥상 인사동점</name>
+		<address>서울 종로구 인사동길 35-4</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>교동두부</name>
+		<address>서울 종로구 율곡로 44-8</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>떡싸롱 인사동점</name>
+		<address>서울 종로구 인사동3길 16</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>해변의 꽃게 인사동점</name>
+		<address>서울 종로구 인사동3길 5-3</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>하나로회관</name>
+		<address>서울 종로구 인사동5길 25</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>맛보래 즉석떡볶이</name>
+		<address>서울 종로구 인사동3길 9</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>꽃 밥에피다</name>
+		<address>서울 종로구 인사동16길 3-6</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>강남면옥</name>
+		<address>서울 종로구 인사동길 18</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>사과나무</name>
+		<address>서울 종로구 인사동14길 24-1</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>최대감네</name>
+		<address>서울 종로구 인사동8길 12-3</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>북촌손만두 인사본점</name>
+		<address>서울 종로구 인사동길 42-5</address>
+		<tags>[3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>인사동 항아리수제비</name>
+		<address>서울 종로구 인사동8길 14-1</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>인사동 쭈꾸미</name>
+		<address>서울 종로구 인사동길 15-14</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>문오리</name>
+		<address>서울 종로구 인사동6길 5</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>아라</name>
+		<address>서울 종로구 인사동3길 10</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>해몽</name>
+		<address>서울 종로구 종로11길 18</address>
+		<tags>[1,3,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>골목안 정원</name>
+		<address>서울 종로구 인사동길 15-12</address>
+		<tags>[2,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>소살리토 바닷가재</name>
+		<address>서울 종로구 인사동길 15-3</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>북촌 한옥마을</name>
+		<address>서울 종로구 계동길 37</address>
+		<tags>[2,4,6]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>국립현대미술관 서울관</name>
+		<address>서울 종로구 삼청로 30</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>아라리오 뮤지엄 인 스페이스</name>
+		<address>서울 종로구 율곡로 83</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>서울 교육 박물관</name>
+		<address>서울 종로구 북촌로5길 48</address>
+		<tags>[2,4,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>삼청동길</name>
+		<address>서울 종로구 삼청로 66</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>부엉이 박물관</name>
+		<address>서울 종로구 북촌로 143-10</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>쌈지길</name>
+		<address>서울 종로구 인사동길 44</address>
+		<tags>[2,4,6]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>국립고궁박물관</name>
+		<address>서울 종로구 효자로 12</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>국립민속박물관</name>
+		<address>서울 종로구 삼청로 37</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>대림미술관</name>
+		<address>서울 종로구 자하문로4길 21</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>경복궁</name>
+		<address>서울 종로구 사직로 161</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>서촌마을</name>
+		<address>서울 종로구 자하문로8길 19</address>
+		<tags>[2,3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>운현궁</name>
+		<address>서울 종로구 삼일대로 464</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>청와대 사랑채</name>
+		<address>서울 종로구 효자로13길 45</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>통인시장</name>
+		<address>서울 종로구 자하문로15길 18</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>탑골공원</name>
+		<address>서울 종로구 종로 99</address>
+		<tags>[3,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>종묘</name>
+		<address>서울 종로구 종로 157</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>뮤지엄김치간</name>
+		<address>서울 종로구 인사동길 35-4</address>
+		<tags>[3,4,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>창덕궁</name>
+		<address>서울 종로구 율곡로 99</address>
+		<tags>[1,2,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>익선동 한옥거리</name>
+		<address>서울 종로구 수표로28길 21-10</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>박물관은 살아있다</name>
+		<address>서울 종로구 인사동길 12</address>
+		<tags>[2,4,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>떡 박물관</name>
+		<address>서울 종로구 돈화문로 71</address>
+		<tags>[1,3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>아름다운 차 박물관</name>
+		<address>서울 종로구 인사동길 19-11</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>인사동 문화의 거리</name>
+		<address>서울 종로구 인사동10길 11-4</address>
+		<tags>[3,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>보나 장신구박물관</name>
+		<address>서울 종로구 인사동길 9</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>삼청공원</name>
+		<address>서울 종로구 북촌로 134-3</address>
+		<tags>[1,2]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>보신각</name>
+		<address>서울 종로구 종로 54</address>
+		<tags>[1,2]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>목인 박물관</name>
+		<address>서울 종로구 인사동11길 20</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>낙원상가</name>
+		<address>서울 종로구 삼일대로 428</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>종로귀금속거리</name>
+		<address>서울 종로구 돈화문로 28</address>
+		<tags>[2,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>인사동</name>
+		<address>서울 종로구 인사동길 62</address>
+		<tags>[2,4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>북촌 그랑핸드</name>
+		<address>서울 종로구 북촌로11길 19</address>
+		<tags>[1,2,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>105</name>
+		<address>서울 종로구 화동 105</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>북촌 모리</name>
+		<address>서울 종로구 창덕궁길 141</address>
+		<tags>[1,2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 제주하우스 삼청점</name>
+		<address>서울 종로구 삼청로 104</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 공병공간점</name>
+		<address>서울 종로구 율곡로3길 73</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 안국역점</name>
+		<address>서울 종로구 북촌로 2</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 종로점</name>
+		<address>서울 종로구 종로 78</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 종각점</name>
+		<address>서울 종로구 종로2가 1-2</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 인사동점</name>
+		<address>서울 종로구 인사동길 11</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 경복궁점</name>
+		<address>서울 종로구 자하문로 17</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이니스프리 경복궁점</name>
+		<address>서울 종로구 자하문로 17</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>올리브영 안국점</name>
+		<address>서울 종로구 율곡로 33</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>올리브영 삼청동점</name>
+		<address>서울 종로구 북촌로5길 54</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>올리브영 종각점</name>
+		<address>서울 종로구 종로 61</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>올리브영 종로점</name>
+		<address>서울 종로구 종로 85</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>북촌책방</name>
+		<address>서울 종로구 북촌로5길 19-12</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>라바르카 삼청본점</name>
+		<address>서울 종로구 북촌로 47-1</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>빈티지보니</name>
+		<address>서울 종로구 계동길 77</address>
+		<tags>[2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>아로마인드</name>
+		<address>서울 종로구 북촌로5길 19-7</address>
+		<tags>[1,3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이도 본점</name>
+		<address>서울 종로구 창덕궁길 191</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>슬로우 스테디클럽</name>
+		<address>서울 종로구 삼청로5길 17</address>
+		<tags>[1]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>GRANHAND</name>
+		<address>서울 종로구 북촌로11길 19</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>젠틀몬스터 북촌플래그십스토어</name>
+		<address>서울 종로구 계동길 92</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>CUEREN</name>
+		<address>서울 종로구 창덕궁길 79</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>피브레노</name>
+		<address>서울 종로구 창덕궁길 106-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>모닝턴</name>
+		<address>서울 종로구 창덕궁길 120</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>노란벽작업실</name>
+		<address>서울 종로구 북촌로6길 31</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>우주공간</name>
+		<address>서울 종로구 북촌로6길 30</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>오브젝트 삼청점</name>
+		<address>서울 종로구 북촌로5길 6</address>
+		<tags>[3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>ONDO</name>
+		<address>서울 종로구 북촌로5나길 114</address>
+		<tags>[2,3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>삼청동 사차원</name>
+		<address>서울 종로구 북촌로5가길 44-2</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>하티스트</name>
+		<address>서울 종로구 삼청로 89</address>
+		<tags>[1,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>더글래스</name>
+		<address>서울 종로구 팔판길 25-17</address>
+		<tags>[2,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>규방도감</name>
+		<address>서울 종로구 북촌로5가길 44-5</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>광주요 가회점</name>
+		<address>서울 종로구 북촌로 42-2</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>껌북바나나</name>
+		<address>서울 종로구 북촌로4길 6</address>
+		<tags>[3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>노커스</name>
+		<address>서울 종로구 계동길 23</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>포니잼</name>
+		<address>서울 종로구 계동길 5</address>
+		<tags>[2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>라플란드</name>
+		<address>서울 종로구 삼청로 83</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미오리</name>
+		<address>서울 종로구 윤보선길 65</address>
+		<tags>[2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>셍빠</name>
+		<address>서울 종로구 북촌로7길 24</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>베란다 북스</name>
+		<address>서울 종로구 계동길 120</address>
+		<tags>[3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>꼬마크 삼청점</name>
+		<address>서울 종로구 북촌로5가길 25</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>루나터치</name>
+		<address>서울 종로구 계동길 127</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이영애화장품 삼청동하우스</name>
+		<address>서울 종로구 삼청로 67</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>다이소 경복궁역점</name>
+		<address>서울 종로구 사직로 125</address>
+		<tags>[3,4,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>팔러</name>
+		<address>서울 종로구 효자로7길 22-16</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>푸른마트</name>
+		<address>서울 종로구 필운대로6길 3</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미샤 경복궁점</name>
+		<address>서울 종로구 자하문로 13-1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>봄밤달</name>
+		<address>서울 종로구 자하문로9길 21</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>토니모리 경복궁점</name>
+		<address>서울 종로구 자하문로 13</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>영지한복</name>
+		<address>서울 종로구 자하문로 19-1</address>
+		<tags>[2,4,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>강성은명과 경복궁점</name>
+		<address>서울 종로구 자하문로 8</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>송파에 사는 희</name>
+		<address>서울 종로구 필운대로 49-8</address>
+		<tags>[1,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>반찬하우스</name>
+		<address>서울 종로구 자하문로15길 18</address>
+		<tags>[3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>Purple Wine Cellar</name>
+		<address>서울 종로구 자하문로 60</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에뛰드하우스 경복궁점</name>
+		<address>서울 종로구 자하문로 11-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>티쉬운트</name>
+		<address>서울 종로구 자하문로7길 52</address>
+		<tags>[1,2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>엔드앤드</name>
+		<address>서울 종로구 자하문로9길 24</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이서윤한복</name>
+		<address>서울 종로구 효자로 7</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>아트돌 인형공방</name>
+		<address>서울 종로구 자하문로7길 63</address>
+		<tags>[3,6,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>고려홍삼</name>
+		<address>서울 종로구 필운대로 12</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>대오서점</name>
+		<address>서울 종로구 자하문로7길 55</address>
+		<tags>[2,3,4]</tags>
+		<is_inside>[1,2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>텐어클락</name>
+		<address>서울 종로구 자하문로 31</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이라선</name>
+		<address>서울 종로구 효자로7길 5</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>므스크 샵</name>
+		<address>서울 종로구 자하문로12길 30</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>경복궁역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>종로서적</name>
+		<address>서울 종로구 종로 51</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>육미당</name>
+		<address>서울 종로구 삼일대로 405</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에스엠면세점</name>
+		<address>서울 종로구 인사동5길 41</address>
+		<tags>[1,4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>금강제화 종로지점</name>
+		<address>서울 종로구 종로 89</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>한국관광명품점</name>
+		<address>서울 종로구 인사동5길 14</address>
+		<tags>[1,2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>한국전통관광명품점</name>
+		<address>서울 종로구 인사동길 9</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>서령필방</name>
+		<address>서울 종로구 인사동4길 11</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>돌실나이 인사점</name>
+		<address>서울 종로구 인사동길 35</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미림아트</name>
+		<address>서울 종로구 인사동길 11-1</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>오렌즈 종로점</name>
+		<address>서울 종로구 삼일대로 405</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>한지마트</name>
+		<address>서울 종로구 인사동4길 11</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>앙키캔들 종각역점</name>
+		<address>서울 종로구 종로 65</address>
+		<tags>[1,2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>구하산방</name>
+		<address>서울 종로구 인사동길 23-1</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>서원서예백화점</name>
+		<address>서울 종로구 인사동4길 17</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>향연</name>
+		<address>서울 종로구 인사동길 44</address>
+		<tags>[2,6,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>꼬레아노 인사동점</name>
+		<address>서울 종로구 인사동길 39</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미로화방</name>
+		<address>서울 종로구 인사동4길 3</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미끼</name>
+		<address>서울 종로구 인사동길 47</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>스킨푸드 인사동점</name>
+		<address>서울 종로구 인사동길 1</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>명신당필방</name>
+		<address>서울 종로구 인사동길 34</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>송화</name>
+		<address>서울 종로구 인사동길 29</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>소담공방</name>
+		<address>서울 종로구 인사동길 52</address>
+		<tags>[1,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>지유명차 인사점</name>
+		<address>서울 종로구 인사동길 12</address>
+		<tags>[1,3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>아리랑 명품관(한국전통공예관)</name>
+		<address>서울 종로구 인사동길 17-1</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>현미와 누룽지 종로인사점</name>
+		<address>서울 종로구 인사동길 35-4</address>
+		<tags>[2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>연화정</name>
+		<address>서울 종로구 인사동길 15-3</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>정명당</name>
+		<address>서울 종로구 인사동10길 14</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>토인</name>
+		<address>서울 종로구 인사동길 48</address>
+		<tags>[3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>경일문화가게</name>
+		<address>서울 종로구 인사동길 23-1</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>정관장 안국역점</name>
+		<address>서울 종로구 율곡로 56</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>육심원 인사점</name>
+		<address>서울 종로구 인사동5길 17</address>
+		<tags>[2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>글라스본</name>
+		<address>서울 종로구 인사동5길 15-1</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종각역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>클럽클리오 인사동클럽</name>
+		<address>서울 종로구 인사동길 20</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>종로3가역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>정림</name>
+		<address>서울 종로구 인사동길 35-4</address>
+		<tags>[1,2,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>고은재</name>
+		<address>서울 종로구 인사동길 44</address>
+		<tags>[1,2,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미니어쳐 아카데미</name>
+		<address>서울 종로구 인사동길 60</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>납청놋전</name>
+		<address>서울 종로구 인사동길 39</address>
+		<tags>[2,3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>안국역</near_subway>
+	</store>
+</root>

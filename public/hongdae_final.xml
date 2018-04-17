@@ -1,0 +1,2683 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<store>
+		<category>카페</category>
+		<name>피오니</name>
+		<address>서울 마포구 어울마당로 56</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>라쿤카페 맹쿤</name>
+		<address>서울 마포구 홍익로 17</address>
+		<tags>[3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>심리치유카페 멘토</name>
+		<address>서울 마포구 와우산로21길 31-10</address>
+		<tags>[3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>폴인 팬케이크</name>
+		<address>서울 마포구 와우산로29가길 86</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>1984</name>
+		<address>서울 마포구 동교로 194</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>르쁘띠푸</name>
+		<address>서울 마포구 와우산로 62</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>디저트연구소</name>
+		<address>서울 마포구 와우산로29마길 22</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>아도베라 로쉐</name>
+		<address>서울 마포구 와우산로29바길 5</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>달콤한 거짓말</name>
+		<address>서울 마포구 독막로 61-4</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>테일러커피 서교 1호점</name>
+		<address>서울 마포구 와우산로33길 46</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페서교</name>
+		<address>서울 마포구 와우산로27길 20</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>키쉬미뇽</name>
+		<address>서울 마포구 양화로6길 35</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>달의 계단</name>
+		<address>서울 마포구 와우산로27길 74</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>블뤼테</name>
+		<address>서울 마포구 와우산로14길 12</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>러빈허</name>
+		<address>서울 마포구 신촌로6길 22</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>콜린</name>
+		<address>서울 마포구 어울마당로 45</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>컨토이너</name>
+		<address>서울 마포구 와우산로13길 49-9</address>
+		<tags>[3,7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>안녕낯선사람</name>
+		<address>서울 마포구 어울마당로5길 40</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>와줘서고마워</name>
+		<address>서울 마포구 양화로11길 22</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>비스위트온</name>
+		<address>서울 마포구 와우산로길 27</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>공사</name>
+		<address>서울 마포구 동교로27길 3-14</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>Coalmine</name>
+		<address>서울 마포구 잔다리로 43</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페부라노</name>
+		<address>서울 마포구 동교로23길 14</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>빨간책방카페</name>
+		<address>서울 마포구 독막로 27</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>Blanc</name>
+		<address>서울 마포구 양화로 192</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>모두막</name>
+		<address>서울 마포구 와우산로29바길 11-4</address>
+		<tags>[3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>모파상</name>
+		<address>서울 마포구 와우산로29바길 11-4</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>소복</name>
+		<address>서울 마포구 어울마당로 58</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>코코브루니</name>
+		<address>서울 마포구 홍익로6길 57</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>친구네다락방</name>
+		<address>서울 마포구 독막로15길 21-8</address>
+		<tags>[3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>2SOYOU</name>
+		<address>서울 마포구 와우산로11길 9-8</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>노랑콩</name>
+		<address>서울 마포구 신촌로2길 16</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>민트하임</name>
+		<address>서울 마포구 잔다리로6길 28</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>타르타르</name>
+		<address>서울 마포구 양화로6길 50</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>Mon Café Gregory</name>
+		<address>서울 마포구 양화로6길 84</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>호호마을</name>
+		<address>서울 마포구 와우산로 50</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>유니크디저트</name>
+		<address>서울 마포구 와우산로 159</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>약다방 봄동</name>
+		<address>서울 마포구 월드컵북로6길 12-13</address>
+		<tags>[2,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페언플러그드</name>
+		<address>서울 마포구 와우산로33길 26</address>
+		<tags>[1,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페퍼즐</name>
+		<address>서울 마포구 와우산로23길 43</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>트웬티포세븐플러스</name>
+		<address>서울 마포구 와우산로18길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>투또 티라미수 코만스</name>
+		<address>서울 마포구 어울마당로 113-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>친구네허준</name>
+		<address>서울 마포구 독막로15길 13</address>
+		<tags>[3,6]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>카페 제인</name>
+		<address>서울 마포구 와우산로21길 21-12</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>바나나하루키</name>
+		<address>서울 마포구 어울마당로 56</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>백년커피</name>
+		<address>서울 마포구 동교로 211</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>몹시</name>
+		<address>서울 마포구 와우산로29길 48-29</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>카페</category>
+		<name>쇼콜라움</name>
+		<address>서울 마포구 와우산로21길 26</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>부야스곱창</name>
+		<address>서울 마포구 어울마당로 136-13</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>고고갈비</name>
+		<address>서울 마포구 와우산로11길 9-7</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>바다회사랑</name>
+		<address>서울 마포구 동교로 156</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>무쏘</name>
+		<address>서울 마포구 잔다리로 10</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍맛술</name>
+		<address>서울 마포구 홍익로5안길 16</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>징기스</name>
+		<address>서울 마포구 와우산로17길 6</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼육공</name>
+		<address>서울 마포구 독막로7길 26</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>코다차야</name>
+		<address>서울 마포구 와우산로 48</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>김덕후의곱창조</name>
+		<address>서울 마포구 와우산로 51-9</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>고기꾼김춘배</name>
+		<address>서울 마포구 홍익로3길 36</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>구공탄곱창</name>
+		<address>서울 마포구 양화로6길 77</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>도누리오빠곱창</name>
+		<address>서울 마포구 잔다리로2길 17</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>자연별곡 </name>
+		<address>서울 마포구 양화로 153</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>경주식당</name>
+		<address>서울 마포구 와우산로13길 49-7</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍스쭈꾸미홍대본점</name>
+		<address>서울 마포구 어울마당로 146</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍대닭갈비</name>
+		<address>서울 마포구 홍익로3길 32</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>육회도</name>
+		<address>서울 마포구 홍익로3길 32</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>맛있는 불고기작전</name>
+		<address>서울 마포구 와우산로21길 36</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>육통령</name>
+		<address>서울 마포구 와우산로17길 25</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>회통령</name>
+		<address>서울 마포구 동교로25길 26</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>낙지볶음 개미집</name>
+		<address>서울 마포구 잔다리로6길 20-12</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>하남돼지집 </name>
+		<address>서울 마포구 와우산로21길 31-11</address>
+		<tags>[4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>낙곱새장미장원</name>
+		<address>서울 마포구 월드컵북로4길 13</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>쭈퐁 </name>
+		<address>서울 마포구 양화로16길 15</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>쭌곱창</name>
+		<address>서울 마포구 와우산로29마길 6</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>랩스일레븐</name>
+		<address>서울 마포구 독막로 67-8</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>그 남자의 볶음밥</name>
+		<address>서울 마포구 잔다리로6길 34-12</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>스앤샤</name>
+		<address>서울 마포구 와우산로17길 24</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이춘복참치</name>
+		<address>서울 마포구 홍익로5길 13</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>오십그램</name>
+		<address>서울 마포구 와우산로21길 28-8</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼백집</name>
+		<address>서울 마포구 잔다리로2길 7</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마포곱창타운</name>
+		<address>서울 마포구 동교로27길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>김앤김대게전문점</name>
+		<address>서울 마포구 양화로 100</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>잘생긴밥집</name>
+		<address>서울 마포구 월드컵북로4길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍대미나리식당</name>
+		<address>서울 마포구 잔다리로6길 34-5</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>웍스나인</name>
+		<address>서울 마포구 홍익로2길 19</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>연어당</name>
+		<address>서울 마포구 양화로 78-7</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>무월식당</name>
+		<address>서울 마포구 양화로 78-7</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>배떼기곱창</name>
+		<address>서울 마포구 양화로18안길 26-6</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>고요남</name>
+		<address>서울 마포구 와우산로19길 15</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마포나루냉면</name>
+		<address>서울 마포구 어울마당로 76-1</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>삼육오도시남녀</name>
+		<address>서울 마포구 독막로 105</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>청년닭발</name>
+		<address>서울 마포구 동교로 218-1</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>청년화로1987</name>
+		<address>서울 마포구 동교로 219</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>미담진족</name>
+		<address>서울 마포구 잔다리로3안길 27</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>꼭그닭</name>
+		<address>서울 마포구 어울마당로 151-1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마녀커리크림치킨</name>
+		<address>서울 마포구 와우산로 133</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>닭날다</name>
+		<address>서울 마포구 와우산로18길 22</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>바쿠스</name>
+		<address>서울 마포구 와우산로29마길 16</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>노랑통닭</name>
+		<address>서울 마포구 홍익로3길 8</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>옥상달빛</name>
+		<address>서울 마포구 와우산로13길 2</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>레게 치킨 썬샤인</name>
+		<address>서울 마포구 독막로 63-1</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>아웃닭</name>
+		<address>서울 마포구 와우산로17길 19</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>뿔레치킨</name>
+		<address>서울 마포구 와우산로길 21</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>빤닭빤닭</name>
+		<address>서울 마포구 독막로15길 24</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>싸움의 고수</name>
+		<address>서울 마포구 와우산로21길 28</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍대밀방</name>
+		<address>서울 마포구 동교로 209-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍대칼국수와족발</name>
+		<address>서울 마포구 와우산로17길 26</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>69갈비</name>
+		<address>서울 마포구 와우산로21길 31-12</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마녀찜닭</name>
+		<address>서울 마포구 와우산로19길 26</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>팔로피자</name>
+		<address>서울 마포구 양화로6길 9-20</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍대화덕피자</name>
+		<address>서울 마포구 독막로7길 5</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>피자몰 </name>
+		<address>서울 마포구 양화로 153</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>오리지널시카고피자</name>
+		<address>서울 마포구 독막로7길 51</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>Monster Pizza</name>
+		<address>서울 마포구 와우산로 73</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>더피자보이즈</name>
+		<address>서울 마포구 와우산로29마길 24-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>프리모바치오바치</name>
+		<address>서울 마포구 와우산로23길 44</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>제임스시카고피자</name>
+		<address>서울 마포구 어울마당로 122-1</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>The 450</name>
+		<address>서울 마포구 와우산로13길 7</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>피자헛</name>
+		<address>서울 마포구 홍익로 19</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>키친랩</name>
+		<address>서울 마포구 어울마당로 96</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>포코펠리체</name>
+		<address>서울 마포구 동교로18길 13</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>빠넬로</name>
+		<address>서울 마포구 어울마당로5길 29</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>더그리드</name>
+		<address>서울 마포구 독막로9길 43</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>젠하이드어웨이</name>
+		<address>서울 마포구 와우산로17길 19-8</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>안녕파스타씨</name>
+		<address>서울 마포구 잔다리로6길 36</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홉스피제리아</name>
+		<address>서울 마포구 양화로 156</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>더라스트펍</name>
+		<address>서울 마포구 와우산로 51-6</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>BHC</name>
+		<address>서울 마포구 홍익로6길 22</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>로켓치킨</name>
+		<address>서울 마포구 양화로7길 6-4</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>소년상회</name>
+		<address>서울 마포구 와우산로13길 25</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>씨푸드살롱마레스타</name>
+		<address>서울 마포구 월드컵북로4길 15</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>구구스 서양밥집</name>
+		<address>서울 마포구 와우산로15길 49</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>준호키친</name>
+		<address>서울 마포구 와우산로29바길 25</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>뉴욕엔와이</name>
+		<address>서울 마포구 와우산로21길 28-11</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>미즈컨테이너</name>
+		<address>서울 마포구 와우산로18길 32</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>부엉이돈가스</name>
+		<address>서울 마포구 독막로 67-11</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>윤씨밀방</name>
+		<address>서울 마포구 와우산로15길 15</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>호우</name>
+		<address>서울 마포구 독막로3길 28-20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>레이식당</name>
+		<address>서울 마포구 동교로 133</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>간츠</name>
+		<address>서울 마포구 독막로7길 40</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>노스쇼어</name>
+		<address>서울 마포구 잔다리로3안길 44</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>도쿄스테이크</name>
+		<address>서울 마포구 어울마당로 98-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>루블랑</name>
+		<address>서울 마포구 와우산로25길 17</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>플라잉볼</name>
+		<address>서울 마포구 와우산로18길 21</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>파라디조</name>
+		<address>서울 마포구 홍익로2길 43</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>파스타리코</name>
+		<address>서울 마포구 홍익로5안길 32</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>포코펠리체</name>
+		<address>서울 마포구 동교로18길 13</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마녀주방</name>
+		<address>서울 마포구 와우산로21길 36-10</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이태리식당</name>
+		<address>서울 마포구 독막로3길 28</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>바비레드</name>
+		<address>서울 마포구 독막로15길 25</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>키친485</name>
+		<address>서울 마포구 양화로6길 67</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>사이드쇼</name>
+		<address>서울 마포구 와우산로11길 9-10</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>김사또</name>
+		<address>서울 마포구 와우산로 39</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>일칠오도씨</name>
+		<address>서울 마포구 잔다리로3안길 27</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>조폭떡볶이</name>
+		<address>서울 마포구 어울마당로 60</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>두끼떡볶이</name>
+		<address>서울 마포구 홍익로6길 10</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>석관동떡볶이</name>
+		<address>서울 마포구 어울마당로 127-1</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>크레이지떡볶이</name>
+		<address>서울 마포구 어울마당로 112</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>홍고추즉석떡볶이</name>
+		<address>서울 마포구 양화로18길 15</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>또보겠지떡볶이</name>
+		<address>서울 마포구 양화로19길 22-25</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>김피라</name>
+		<address>서울 마포구 와우산로15길 49</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>마포만두</name>
+		<address>서울 마포구 양화로7길 5</address>
+		<tags>[4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[1]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>연어에이드</name>
+		<address>서울 마포구 와우산로15길 40</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>이뜰</name>
+		<address>서울 마포구 홍익로 6</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>블랙스톤</name>
+		<address>서울 마포구 와우산로17길 19-11</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>쿼드그릴</name>
+		<address>서울 마포구 독막로5길 26</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>히네꼬</name>
+		<address>서울 마포구 독막로15길 3-14</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>에반스빌</name>
+		<address>서울 마포구 독막로15길 12</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>리우브라질</name>
+		<address>서울 마포구 홍익로 7</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>모모스테이크</name>
+		<address>서울 마포구 와우산로21길 10</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>파스치노팬스테이크</name>
+		<address>서울 마포구 어울마당로 100-6</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>뉴욕아파트먼트</name>
+		<address>서울 마포구 독막로7길 45</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>디파이브</name>
+		<address>서울 마포구 잔다리로6길 30</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>무라</name>
+		<address>서울 마포구 어울마당로 40</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>키움초밥</name>
+		<address>서울 마포구 잔다리로 77</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>혼가츠</name>
+		<address>서울 마포구 와우산로21길 36-6</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>맛있는 교토</name>
+		<address>서울 마포구 와우산로19길 6</address>
+		<tags>[4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>토끼정</name>
+		<address>서울 마포구 잔다리로2길 13</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>하카타분코</name>
+		<address>서울 마포구 독막로19길 43</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>로운 샤브샤브</name>
+		<address>서울 마포구 양화로 153</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>우동 카덴</name>
+		<address>서울 마포구 양화로7안길 2-1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>오늘의 연어</name>
+		<address>서울 마포구 동교로 212-9</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>하카타나카</name>
+		<address>서울 마포구 와우산로23길 50</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>우와</name>
+		<address>서울 마포구 와우산로21길 21-16</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>어시장 3대</name>
+		<address>서울 마포구 독막로3길 13</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>박용석스시</name>
+		<address>서울 마포구 동교로 126</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>여우골</name>
+		<address>서울 마포구 와우산로19길 9</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>유정상초밥</name>
+		<address>서울 마포구 홍익로5안길 32</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>감성타코 홍대점</name>
+		<address>서울 마포구 와우산로21길 20-11</address>
+		<tags>[2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>스페인야시장</name>
+		<address>서울 마포구 양화로6길 49</address>
+		<tags>[1,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>신주양꼬치</name>
+		<address>서울 마포구 와우산로 66</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>소고산제일루</name>
+		<address>서울 마포구 잔다리로6길 40-6</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>경성양꼬치</name>
+		<address>서울 마포구 양화로6길 57-10</address>
+		<tags>[1,2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>퍼기포레스트</name>
+		<address>서울 마포구 와우산로19길 6-11</address>
+		<tags>[5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>샤이바나</name>
+		<address>서울 마포구 독막로3길 34</address>
+		<tags>[2,5]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>사모님돈가스</name>
+		<address>서울 마포구 와우산로 39-13</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>만뽀돈테키본점</name>
+		<address>서울 마포구 독막로14길 4</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>초마</name>
+		<address>서울 마포구 와우산로 72</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>식당</category>
+		<name>영빈루</name>
+		<address>서울 마포구 와우산로21길 19-16</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>러브뮤지엄</name>
+		<address>서울 마포구 홍익로3길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>아이스뮤지엄</name>
+		<address>서울 마포구 홍익로3길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>카카오프렌즈컨셉뮤지엄</name>
+		<address>서울 마포구 양화로 162</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>극동방송M스튜디오</name>
+		<address>서울 마포구 와우산로 56</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>절두산순교성지</name>
+		<address>서울 마포구 토정로 6</address>
+		<tags>[3]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>절두산순교기념박물관</name>
+		<address>서울 마포구 토정로 6</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>월계수양복점신사들 촬영지</name>
+		<address>서울 마포구 와우산로 15</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>유니아트홀</name>
+		<address>서울 마포구 독막로8길 49</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>전쟁과여성인권박물관</name>
+		<address>서울 마포구 월드컵북로11길 20</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>망원역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>홍대앞희망시장</name>
+		<address>서울 마포구 와우산로21길 19-3</address>
+		<tags>[4]</tags>
+		<is_inside>[2]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[1]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>홍익대학교박물관</name>
+		<address>서울 마포구 와우산로 94</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>홍대클럽거리</name>
+		<address>서울 마포구 와우산로 63</address>
+		<tags>[4]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>엘리펀트스페이스</name>
+		<address>서울 마포구 동교로17길 7</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>모먼트플레이스</name>
+		<address>서울 마포구 잔다리로 89</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>명소</category>
+		<name>근현대디자인박물관</name>
+		<address>서울 마포구 와우산로30길 36</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>카카오프렌즈 샵</name>
+		<address>서울 마포구 양화로 162</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>메종드 알로하</name>
+		<address>서울 마포구 와우산로29가길 18</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>버터 </name>
+		<address>서울 마포구 양화로 153</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>플레이그라운드</name>
+		<address>서울 마포구 홍익로6길 21</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>서현역 브러쉬</name>
+		<address>서울 마포구 와우산로29바길 5</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에이랜드</name>
+		<address>서울 마포구 양화로16길 29</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>루소주얼리</name>
+		<address>서울 마포구 양화로 166</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>토이마루</name>
+		<address>서울 마포구 홍익로6길 38</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>유니클로 </name>
+		<address>서울 마포구 양화로 176</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>Chuu</name>
+		<address>서울 마포구 와우산로29다길 20</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>라인프렌즈</name>
+		<address>서울 마포구 홍익로 26</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>도토리숲</name>
+		<address>서울 마포구 와우산로 110</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>가차샵</name>
+		<address>서울 마포구 와우산로29길 48-14</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>젠틀몬스터</name>
+		<address>서울 마포구 독막로7길 54</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>슈펜</name>
+		<address>서울 마포구 양화로 153</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>올리브영 </name>
+		<address>서울 마포구 양화로 156</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>건담베이스</name>
+		<address>서울 마포구 와우산로23길 8</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>롭스 홍대점</name>
+		<address>서울 마포구 양화로18길 3</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>OST홍대와이즈파크</name>
+		<address>서울 마포구 양화로 176</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>폴더 홍대점</name>
+		<address>서울 마포구 양화로 152-6</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>OiOi</name>
+		<address>서울 마포구 와우산로 137</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>로이드 홍대점</name>
+		<address>서울 마포구 양화로 166</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>데이에프터데이</name>
+		<address>서울 마포구 와우산로21길 19-18</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>원더플레이스 홍대점</name>
+		<address>서울 마포구 양화로 164</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>H&amp;M 홍대점</name>
+		<address>서울 마포구 어울마당로 107</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>가발나라 홍대점</name>
+		<address>서울 마포구 잔다리로 39</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>오브젝트</name>
+		<address>서울 마포구 와우산로35길 13</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>생활창작가게KEY</name>
+		<address>서울 마포구 와우산로29길 48-5</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>오렌즈 홍대입구역점</name>
+		<address>서울 마포구 양화로 156</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미샤 홍대점</name>
+		<address>서울 마포구 와우산로23길 42</address>
+		<tags>[1,3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>빈티지산타</name>
+		<address>서울 마포구 홍익로 19</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에메필 홍대점</name>
+		<address>서울 마포구 양화로 156</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>어퓨 홍대점</name>
+		<address>서울 마포구 어울마당로 102</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>조이파티 홍대점</name>
+		<address>서울 마포구 잔다리로 21-1</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>합정역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>플랫폼플레이스 홍대점</name>
+		<address>서울 마포구 와우산로 113</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>네온문나잇</name>
+		<address>서울 마포구 와우산로 145</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에스쁘아 홍대점</name>
+		<address>서울 마포구 와우산로21길 37</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>토니모리 홍대점</name>
+		<address>서울 마포구 홍익로3길 1</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>피규어프렌즈</name>
+		<address>서울 마포구 어울마당로 100</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>위트와 콤마</name>
+		<address>서울 마포구 와우산로23길 20-22</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>드림팰토리마켓</name>
+		<address>서울 마포구 와우산로23길 35-3</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>토이친구</name>
+		<address>서울 마포구 홍익로 10</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>핫티 홍대점</name>
+		<address>서울 마포구 잔다리로2길 23</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>원피스POP</name>
+		<address>서울 마포구 와우산로 39-12</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>상수역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>왓슨스 홍대중앙점</name>
+		<address>서울 마포구 홍익로6길 15</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>카우보이</name>
+		<address>서울 마포구 와우산로23길 47</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>에뛰드하우스 홍대점</name>
+		<address>서울 마포구 홍익로6길 26</address>
+		<tags>[7]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>미니골드 홍대점</name>
+		<address>서울 마포구 홍익로6길 30</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>더블유랩 홍대점</name>
+		<address>서울 마포구 홍익로6길 4</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>오드갤러리</name>
+		<address>서울 마포구 와우산로21길 12</address>
+		<tags>[2]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>이현주한복</name>
+		<address>서울 마포구 월드컵북로 7</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>더페이스샵 홍대1호점</name>
+		<address>서울 마포구 홍익로6길 22</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>잇츠스킨 홍대점</name>
+		<address>서울 마포구 와우산로23길 38</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>ABC마트 홍대점</name>
+		<address>서울 마포구 홍익로 17</address>
+		<tags>[1]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+	<store>
+		<category>쇼핑</category>
+		<name>홀리카홀리카 홍대점</name>
+		<address>서울 마포구 와우산로23길 40</address>
+		<tags>[3]</tags>
+		<is_inside>[1]</is_inside>
+		<is_food_traditional>[0]</is_food_traditional>
+		<is_look_traditional>[0]</is_look_traditional>
+		<near_subway>홍대입구역</near_subway>
+	</store>
+</root>
