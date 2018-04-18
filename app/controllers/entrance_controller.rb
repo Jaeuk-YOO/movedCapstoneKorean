@@ -1,5 +1,5 @@
 class EntranceController < ApplicationController
-
+    before_action :authenticate_user!
     def select_location 
         
     end
