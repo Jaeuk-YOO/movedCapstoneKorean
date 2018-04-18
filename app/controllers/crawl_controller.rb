@@ -1,5 +1,30 @@
 class CrawlController < ApplicationController
     before_action :authenticate_user!
+    def data_rollback_upload #final xml파일을 크롤링합니다.
+        require('nokogiri')
+        target_xml = ["crawl_data_rollback_final.xml"]
+        target_xml.each do |each_xml|
+            seochon = Nokogiri::XML(File.open("public/"+each_xml))
+            seochon.xpath("//store").each do |each_data|
+                cd = CrawlDatum.new
+                cd.region = each_data.xpath("region").inner_text
+                cd.category = each_data.xpath("category").inner_text
+                cd.name = each_data.xpath("name").inner_text
+                cd.address = each_data.xpath("address").inner_text
+                cd.tags = each_data.xpath("tags").inner_text
+                cd.is_inside = each_data.xpath("is_inside").inner_text
+                cd.is_food_traditional = each_data.xpath("is_food_traditional").inner_text
+                cd.is_look_traditional = each_data.xpath("is_look_traditional").inner_text
+                cd.near_subway = each_data.xpath("near_subway").inner_text
+                cd.x = each_data.xpath("x").inner_text
+                cd.y = each_data.xpath("y").inner_text
+                cd.save
+            end
+        end
+        redirect_to '/crawl/is_xml_crawl_right' #크롤링 데이터를 /chk에서 확인할 수 있도록 합니다.
+    end
+
+
     def upload #xml파일을 크롤링합니다.
         require('nokogiri')
         target_xml = ["seochon_final.xml", "myungdong_final.xml", "hongdae_final.xml"]
@@ -36,7 +61,7 @@ class CrawlController < ApplicationController
         end
     end
     
-    def marker2
+    def is_xml_crawl_right
         @cdchk = CrawlDatum.all
     end
 

@@ -1,4 +1,4 @@
-class CreateCrawlData < ActiveRecord::Migration[5.1]
+class CreateCrawlData < ActiveRecord::Migration[5.0]
   def change
     create_table :crawl_data do |t|
 

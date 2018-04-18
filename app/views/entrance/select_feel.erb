@@ -1,0 +1,39 @@
+<div class="container">
+    <form action="/entrance/select_feel_post" method="POST">
+        <div class="row">
+            <%@select_list.each_with_index do |each_select_value, index|%>
+            <div class="col-6 p-0">
+                    <span class="p-auto" style="position:absolute; z-index:99; color:white; text-shadow: 2px 2px 6px black; padding-left: 40%;padding-top: 23%;"><%= each_select_value %></span>
+                    <img src="https://i2.wp.com/beebom.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg" class="rounded-0 img-check" width="100%;" name="chk<%= index %>">
+                    <input type="checkbox" name="chk[]" id="chk<%= index %>" value="<%= each_select_value %>" style="display:none" autocomplete="off">
+            </div>
+            <%end%>
+            <input type="submit" value="Check Item" class="btn btn-success">
+        </div>
+    </form>
+</div>
+    
+<style>
+.check
+{
+    opacity:0.5;
+	color:#996;	
+}
+</style>
+
+
+<script>
+    $(document).ready(function(e){
+    		$(".img-check").click(function(){
+				$(this).toggleClass("check");
+                var img_name = $(this).attr('name');
+                
+                if ($(this).attr('class') != "rounded-0 img-check check") {
+                    $("input:checkbox#"+img_name).attr("checked", false);
+                }
+                else if ($(this).attr('class') == "rounded-0 img-check check") {  
+                    $("input:checkbox#"+img_name).attr("checked", true);
+                }
+			});
+	});
+</script>
