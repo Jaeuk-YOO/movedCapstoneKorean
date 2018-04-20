@@ -122,7 +122,74 @@
         </button>
       </div>
       <div class="modal-body">
-        카페 모달입니다.
+
+        <!-- 모달 아코디언-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    카페에서 사용할 수 있는 구문표현
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Please give me 1 hot coffee<br>
+                    - 따뜻한 아메리카노 한 잔 주세요.
+                    <audio id="cafe_voice_1"><source src="https://tts-translate.kakao.com/newtone?message=따뜻한 아메리카노 한 잔 주세요."></audio>
+                    <button id="cafe_voice_1" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                    Please give me 2 ice coffees<br>
+                    - 아이스 아메리카노 두 잔 주세요.
+                    <audio id="cafe_voice_2"><source src="https://tts-translate.kakao.com/newtone?message=아이스 아메리카노 두 잔 주세요."></audio>
+                    <button id="cafe_voice_2" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                    Do you have non-caffeinated drinks?<br>
+                    - 카페인 없는 음료 있어요?
+                    <audio id="cafe_voice_3"><source src="https://tts-translate.kakao.com/newtone?message=카페인 없는 음료 있어요?"></audio>
+                    <button id="cafe_voice_3" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                    I’ll drink it here.<br>
+                    - 여기서 먹고 갈게요.
+                    <audio id="cafe_voice_4"><source src="https://tts-translate.kakao.com/newtone?message=여기서 먹고 갈게요."></audio>
+                    <button id="cafe_voice_4" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                    I’d like this to go<br>
+                    - 테이크 아웃할게요.<br><br>
+                    Please throw away my receipt<br>
+                    - 영수증은 버려주세요.<br><br>
+                    Do you have wifi?<br>
+                    - 와이파이 되나요?<br><br>
+                    What’s the wifi password?<br>
+                    - 와이파이 비밀번호가 뭐예요?<br><br>
+                    Is there an outlet?<br>
+                    - 콘센트 있어요?<br><br>
+                    Where are your electrical outlets?<br>
+                    - 콘센트 어디에 있어요?<br><br>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    체험카페에서 활용할 수 있는 구문표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body"> 
+                    How can I use this? play?<br>
+                    - 어떻게 이용하나요?<br><br>
+                    How much is it per hour?<br>
+                    - (한 시간)에 얼마인가요?<br><br>
+                    Where can I keep my luggage?<br>
+                    - 짐은 어디에 두나요? / 짐은 어디에 보관하나요?<br><br>
+                    I'd like to play it for one more hour. (how much is it cost?) How much extra would it be<br>
+                    - (한 시간) 더 이용하고 싶어요. 추가 요금이 얼마인가요?<br><br>
+                </div>
+                </div>
+            </div>
+        </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -766,6 +833,19 @@ $(document).ready(function(){
     $('#mysightsModal').click(function() {
         $('#sightsModal').modal();
     });
+    $('button#cafe_voice_1').click(function(){
+        $('audio#cafe_voice_1').get(0).play();
+    });
+    $('button#cafe_voice_2').click(function(){
+        $('audio#cafe_voice_2').get(0).play();
+    });
+    $('button#cafe_voice_3').click(function(){
+        $('audio#cafe_voice_3').get(0).play();
+    });
+    $('button#cafe_voice_4').click(function(){
+        $('audio#cafe_voice_4').get(0).play();
+    });
+
 });
 </script>
 
