@@ -491,7 +491,7 @@ TooltipMarker.prototype.getPosition = function() {
  * 지도 영역 외부에 존재하는 마커를 추적하는 기능을 가진 객체입니다.
  * 클리핑 알고리즘을 사용하여 tracker의 좌표를 구하고 있습니다.
  */
-function MarkerTracker(map, target) {
+function MarkerTracker(map, target, icon_img) {
     // 클리핑을 위한 outcode
     var OUTCODE = {
         INSIDE: 0, // 0b0000
@@ -518,7 +518,7 @@ function MarkerTracker(map, target) {
 
     // 내부 아이콘
     var icon = document.createElement('div');
-    icon.className = 'icon';
+    icon.className = icon_img;
 
     // 외부에 있는 target의 위치에 따라 회전하는 말풍선 모양의 엘리먼트
     var balloon = document.createElement('div');
@@ -786,12 +786,16 @@ var positions = [
 
 // 카페
 var dkpos1 = positions[0].latlng;
+var cafe = "icon_cafe"
 // 레스토랑
 var dkpos2 = positions[1].latlng;
+var restaurant = "icon_restaurant"
 // 쇼핑
 var dkpos3 = positions[2].latlng;
+var shopping = "icon_shopping"
 // 명소
 var dkpos4 = positions[3].latlng;
+var sights = "icon_sights"
 
 // 툴팁을 노출하는 마커를 생성합니다.
 var marker1 = new TooltipMarker(dkpos1, positions[0].title);
@@ -804,10 +808,10 @@ marker3.setMap(map);
 marker4.setMap(map);
 
 // MarkerTracker를 생성합니다.
-var markerTracker1 = new MarkerTracker(map, marker1);
-var markerTracker2 = new MarkerTracker(map, marker2);
-var markerTracker3 = new MarkerTracker(map, marker3);
-var markerTracker4 = new MarkerTracker(map, marker4);
+var markerTracker1 = new MarkerTracker(map, marker1, cafe);
+var markerTracker2 = new MarkerTracker(map, marker2, restaurant);
+var markerTracker3 = new MarkerTracker(map, marker3, shopping);
+var markerTracker4 = new MarkerTracker(map, marker4, sights);
 
 // marker의 추적을 시작합니다.
 markerTracker1.run();
@@ -889,6 +893,42 @@ $(document).ready(function(){
     width: 48px;
     height: 48px;
     background-image: url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/sign-info-48.png);
+}
+
+.icon_cafe{
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 48px;
+    height: 48px;
+    background-image: url(/cafe_48.png);
+}
+
+.icon_restaurant{
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 48px;
+    height: 48px;
+    background-image: url(/restaurant_48.png);
+}
+
+.icon_shopping{
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 48px;
+    height: 48px;
+    background-image: url(/shopping_48.png);
+}
+
+.icon_sights{
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 48px;
+    height: 48px;
+    background-image: url(/sights_48.png);
 }
 
 .balloon {
