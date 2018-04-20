@@ -24,7 +24,7 @@ class EntranceController < ApplicationController
         chk_arr.each do |x|
             zip_arr.push(pre_select_list[x])
         end
-        user_select_new = current_user.user_selects.new 
+        user_select_new = current_user.user_selects.last 
         user_select_new.feel = zip_arr.to_s
         user_select_new.save
 

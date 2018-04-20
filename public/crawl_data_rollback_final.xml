@@ -7225,8 +7225,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5538499563469</x>
-		<y>126.922785734865</y>
+		<x>126.922785734865</x>
+		<y>37.5538499563469</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -7303,8 +7303,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5560542887327</x>
-		<y>126.926377874695</y>
+		<x>126.926377874695</x>
+		<y>37.5560542887327</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -7992,8 +7992,8 @@
 		<is_food_traditional>[1]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대</near_subway>
-		<x>37.5564951853545</x>
-		<y>126.922633614641</y>
+		<x>126.922633614641</x>
+		<y>37.5564951853545</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -8733,8 +8733,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5540120350658</x>
-		<y>126.922631654863</y>
+		<x>126.922631654863</x>
+		<y>37.5540120350658</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -8824,8 +8824,9 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5561136938758</x>
-		<y>126.923448864295</y>
+		<x>126.923448864295</x>
+		<y>37.5561136938758</y>
+		
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -8850,8 +8851,8 @@
 		<is_food_traditional>[1]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5553349943429</x>
-		<y>126.923082979803</y>
+		<x>126.923082979803</x>
+		<y>37.5553349943429</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9760,8 +9761,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5508734651678</x>
-		<y>126.923408957526</y>
+		<x>126.923408957526</x>
+		<y>37.5508734651678</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9773,8 +9774,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5518243485493</x>
-		<y>126.922534328643</y>
+		<x>126.922534328643</x>
+		<y>37.5518243485493</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9786,8 +9787,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5535176859583</x>
-		<y>126.921717748968</y>
+		<x>126.921717748968</x>
+		<y>37.5535176859583</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9812,8 +9813,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5564311169295</x>
-		<y>126.923869549917</y>
+		<x>126.923869549917</x>
+		<y>37.5564311169295</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9825,8 +9826,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5494462760858</x>
-		<y>126.923396838191</y>
+		<x>126.923396838191</x>
+		<y>37.5494462760858</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9838,8 +9839,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[1]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.5441367012613</x>
-		<y>126.911792442269</y>
+		<x>126.911792442269</x>
+		<y>37.5441367012613</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9864,8 +9865,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5458274670574</x>
-		<y>126.922784957536</y>
+		<x>126.922784957536</x>
+		<y>37.5458274670574</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9877,8 +9878,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5456330410985</x>
-		<y>126.917729236654</y>
+		<x>126.917729236654</x>
+		<y>37.5456330410985</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9890,8 +9891,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>망원역</near_subway>
-		<x>37.56009744802</x>
-		<y>126.914888353279</y>
+		<x>126.914888353279</x>
+		<y>37.56009744802</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9903,8 +9904,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[1]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5521814366633</x>
-		<y>126.922982105888</y>
+		<x>126.922982105888</x>
+		<y>37.5521814366633</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9916,8 +9917,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5525179015552</x>
-		<y>126.92499163937</y>
+		<x>126.92499163937</x>
+		<y>37.5525179015552</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9929,8 +9930,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5502712540638</x>
-		<y>126.922879959186</y>
+		<x>126.922879959186</x>
+		<y>37.5502712540638</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9942,8 +9943,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.5553410075311</x>
-		<y>126.916039075575</y>
+		<x>126.916039075575</x>
+		<y>37.5553410075311</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9955,8 +9956,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.5551134747953</x>
-		<y>126.91536482083</y>
+		<x>126.91536482083</x>
+		<y>37.5551134747953</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9968,8 +9969,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5532633036696</x>
-		<y>126.929839096509</y>
+		<x>126.929839096509</x>
+		<y>37.5532633036696</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -9994,8 +9995,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5542859531147</x>
-		<y>126.928366907249</y>
+		<x>126.928366907249</x>
+		<y>37.5542859531147</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10020,8 +10021,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5554934516861</x>
-		<y>126.922901739495</y>
+		<x>126.922901739495</x>
+		<y>37.5554934516861</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10046,8 +10047,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5531965695897</x>
-		<y>126.921174869196</y>
+		<x>126.921174869196</x>
+		<y>37.5531965695897</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10059,8 +10060,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5567448560451</x>
-		<y>126.924168013515</y>
+		<x>126.924168013515</x>
+		<y>37.5567448560451</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10072,8 +10073,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5558616198094</x>
-		<y>126.923766009239</y>
+		<x>126.923766009239</x>
+		<y>37.5558616198094</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10085,8 +10086,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5572463335888</x>
-		<y>126.924986899962</y>
+		<x>126.924986899962</x>
+		<y>37.5572463335888</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10098,8 +10099,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5547254166128</x>
-		<y>126.922314035089</y>
+		<x>126.922314035089</x>
+		<y>37.5547254166128</y> 
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10111,8 +10112,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5531345731816</x>
-		<y>126.925606665241</y>
+		<x>126.925606665241</x>
+		<y>37.5531345731816</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10124,8 +10125,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5560011122395</x>
-		<y>126.927808448552</y>
+		<x>126.927808448552</x>
+		<y>37.5560011122395</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10137,8 +10138,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.550056785973</x>
-		<y>126.920123476367</y>
+		<x>126.920123476367</x>
+		<y>37.550056785973</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10176,8 +10177,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5534655893448</x>
-		<y>126.924737188017</y>
+		<x>126.924737188017</x>
+		<y>37.5534655893448</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10189,8 +10190,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5570298290645</x>
-		<y>126.924570630318</y>
+		<x>126.924570630318</x>
+		<y>37.5570298290645</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10215,8 +10216,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5557386025648</x>
-		<y>126.923023714604</y>
+		<x>126.923023714604</x>
+		<y>37.5557386025648</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10228,8 +10229,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5538536197937</x>
-		<y>126.928607243423</y>
+		<x>126.928607243423</x>
+		<y>37.5538536197937</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10254,8 +10255,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5517269576096</x>
-		<y>126.922407681612</y>
+		<x>126.922407681612</x>
+		<y>37.5517269576096</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10267,8 +10268,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5565393560628</x>
-		<y>126.924055046775</y>
+		<x>126.924055046775</x>
+		<y>37.5565393560628</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10280,8 +10281,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5546282190276</x>
-		<y>126.922481630684</y>
+		<x>126.922481630684</x>
+		<y>37.5546282190276</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10293,8 +10294,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.5517390627056</x>
-		<y>126.918967370275</y>
+		<x>126.918967370275</x>
+		<y>37.5517390627056</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10306,8 +10307,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5557139996778</x>
-		<y>126.929809637239</y>
+		<x>126.929809637239</x>
+		<y>37.5557139996778</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10319,8 +10320,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5559648865284</x>
-		<y>126.927505176862</y>
+		<x>126.927505176862</x>
+		<y>37.5559648865284</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10345,8 +10346,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5546830661886</x>
-		<y>126.923690252719</y>
+		<x>126.923690252719</x>
+		<y>37.5546830661886</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10384,8 +10385,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5539110254166</x>
-		<y>126.922482373555</y>
+		<x>126.922482373555</x>
+		<y>37.5539110254166</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10397,8 +10398,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>합정역</near_subway>
-		<x>37.5506481243961</x>
-		<y>126.920543823102</y>
+		<x>126.920543823102</x>
+		<y>37.5506481243961</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10410,8 +10411,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5534196066531</x>
-		<y>126.926113384714</y>
+		<x>126.926113384714</x>
+		<y>37.5534196066531</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10423,8 +10424,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5543225225279</x>
-		<y>126.929245084135</y>
+		<x>126.929245084135</x>
+		<y>37.5543225225279</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10436,8 +10437,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5522779648155</x>
-		<y>126.921796000264</y>
+		<x>126.921796000264</x>
+		<y>37.5522779648155</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10449,8 +10450,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5542641805748</x>
-		<y>126.922427685419</y>
+		<x>126.922427685419</x>
+		<y>37.5542641805748</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10462,8 +10463,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5537992423076</x>
-		<y>126.922391952666</y>
+		<x>126.922391952666</x>
+		<y>37.5537992423076</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10475,8 +10476,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5541542043972</x>
-		<y>126.925134858759</y>
+		<x>126.925134858759</x>
+		<y>37.5541542043972</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10488,8 +10489,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5544269425585</x>
-		<y>126.92331931041</y>
+		<x>126.92331931041</x>
+		<y>37.5544269425585</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10501,8 +10502,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5537604481537</x>
-		<y>126.923695720297</y>
+		<x>126.923695720297</x>
+		<y>37.5537604481537</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10514,8 +10515,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5517081311998</x>
-		<y>126.921190016922</y>
+		<x>126.921190016922</x>
+		<y>37.5517081311998</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10527,8 +10528,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>상수역</near_subway>
-		<x>37.5482167331689</x>
-		<y>126.922506376757</y>
+		<x>126.922506376757</x>
+		<y>37.5482167331689</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10540,8 +10541,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5553563729012</x>
-		<y>126.922707222824</y>
+		<x>126.922707222824</x>
+		<y>37.5553563729012</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10553,8 +10554,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5549208063486</x>
-		<y>126.92349988044</y>
+		<x>126.92349988044</x>
+		<y>37.5549208063486</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10566,8 +10567,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5554720666265</x>
-		<y>126.923268443245</y>
+		<x>126.923268443245</x>
+		<y>37.5554720666265</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10579,8 +10580,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5556343753307</x>
-		<y>126.923467462387</y>
+		<x>126.923467462387</x>
+		<y>37.5556343753307</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10592,8 +10593,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5548299769127</x>
-		<y>126.922381829988</y>
+		<x>126.922381829988</x>
+		<y>37.5548299769127</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10605,8 +10606,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5525744601037</x>
-		<y>126.923271414057</y>
+		<x>126.923271414057</x>
+		<y>37.5525744601037</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10618,8 +10619,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.5556108987893</x>
-		<y>126.920660781634</y>
+		<x>126.920660781634</x>
+		<y>37.5556108987893</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10644,8 +10645,8 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.554452416813</x>
-		<y>126.923699541651</y>
+		<x>126.923699541651</x>
+		<y>37.554452416813</y>
 	</store>
 	<store>
 		<region>hongdae</region>
@@ -10670,7 +10671,7 @@
 		<is_food_traditional>[0]</is_food_traditional>
 		<is_look_traditional>[0]</is_look_traditional>
 		<near_subway>홍대입구역</near_subway>
-		<x>37.554582142824</x>
-		<y>126.923672248104</y>
+		<x>126.923672248104</x>
+		<y>37.554582142824</y>
 	</store>
 </root>

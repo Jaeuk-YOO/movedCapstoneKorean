@@ -1,6 +1,16 @@
+<br>
 <div class="alert alert-info" role="alert">
-  추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i>
+  <%if @current_user_select_to_view.location == "seochon"%>
+    서촌지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+  <%elsif  @current_user_select_to_view.location == "myeongdong"%>
+    명동지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+  <%elsif @current_user_select_to_view.location == "hongdae"%>
+    홍대지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+  <%end%>
+    오늘의 추천 코스는 카페 -> 밥집 -> 쇼핑 -> 명소 순서입니다.
+    <br>지도가 보이지 않으시면, 새로고침을 해주세요!
 </div>
+
 
 <div id="map" style="width:100%;height:400px;"></div>
 
@@ -17,16 +27,16 @@
       <div alt="First slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
             <div class="recommend_title">
-                <%=@rand_cafe.name%>
+                오늘의 카페 : <%=@user_cafe.name%>
             </div>
         <div class="body">
             <div class="img">
                 <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
             </div>
             <div class="desc">
-                <div class="ellipsis" style="font-size:12px;"><%=@rand_cafe.address%></div>
-                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@rand_cafe.near_subway%></div>
-                <button type="button" class="btn btn-sm btn-light" id="myModal" data-toggle="modal" data-target="#exampleModal">표현 확인하기</button>
+                <div class="ellipsis" style="font-size:12px;"><%=@user_cafe.address%></div>
+                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_cafe.near_subway%></div>
+                <button type="button" class="btn btn-sm btn-light" id="mycafeModal" data-toggle="modal" data-target="#cafeModal">표현 확인하기</button>
             </div> 
         </div> 
         </div>
@@ -36,16 +46,16 @@
       <div alt="Second slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
             <div class="recommend_title">
-                <%=@rand_restaurant.name%>
+                오늘의 밥집 : <%=@user_restaurant.name%>
             </div>
         <div class="body">
             <div class="img">
                 <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
             </div>
             <div class="desc">
-                <div class="ellipsis" style="font-size:12px;"><%=@rand_restaurant.address%></div>
-                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@rand_restaurant.near_subway%></div>
-                <button type="button" class="btn btn-sm btn-light" id="myModal" data-toggle="modal" data-target="#exampleModal">표현 확인하기</button>
+                <div class="ellipsis" style="font-size:12px;"><%=@user_restaurant.address%></div>
+                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_restaurant.near_subway%></div>
+                <button type="button" class="btn btn-sm btn-light" id="myrestaurantModal" data-toggle="modal" data-target="#restaurantModal">표현 확인하기</button>
             </div> 
         </div> 
         </div>
@@ -55,16 +65,16 @@
       <div alt="Third slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
             <div class="recommend_title">
-                <%=@rand_shopping.name%>
+                오늘의 쇼핑 : <%=@user_shopping.name%>
             </div>
         <div class="body">
             <div class="img">
                 <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
             </div>
             <div class="desc">
-                <div class="ellipsis" style="font-size:12px;"><%=@rand_shopping.address%></div>
-                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@rand_shopping.near_subway%></div>
-                <button type="button" class="btn btn-sm btn-light" id="myModal" data-toggle="modal" data-target="#exampleModal">표현 확인하기</button>
+                <div class="ellipsis" style="font-size:12px;"><%=@user_shopping.address%></div>
+                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_shopping.near_subway%></div>
+                <button type="button" class="btn btn-sm btn-light" id="myshoppingModal" data-toggle="modal" data-target="#shoppingModal">표현 확인하기</button>
             </div> 
         </div> 
         </div>
@@ -74,16 +84,16 @@
       <div alt="Forth slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
             <div class="recommend_title">
-                <%=@rand_sights.name%>
+                오늘의 명소 : <%=@user_sights.name%>
             </div>
         <div class="body">
             <div class="img">
                 <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
             </div>
             <div class="desc">
-                <div class="ellipsis" style="font-size:12px;"><%=@rand_sights.address%></div>
-                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@rand_sights.near_subway%></div>
-                <button type="button" class="btn btn-sm btn-light" id="myModal" data-toggle="modal" data-target="#exampleModal">표현 확인하기</button>
+                <div class="ellipsis" style="font-size:12px;"><%=@user_sights.address%></div>
+                <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_sights.near_subway%></div>
+                <button type="button" class="btn btn-sm btn-light" id="mysightsModal" data-toggle="modal" data-target="#sightsModal">표현 확인하기</button>
             </div> 
         </div> 
         </div>
@@ -101,8 +111,8 @@
   </a>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- cafe Modal -->
+<div class="modal fade" id="cafeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -112,7 +122,67 @@
         </button>
       </div>
       <div class="modal-body">
-        한국어는 참 어려운 언어입니다. 그쵸?
+        카페 모달입니다.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- restaurant Modal -->
+<div class="modal fade" id="restaurantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        레스토랑 모달입니다.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- shopping Modal -->
+<div class="modal fade" id="shoppingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">쇼핑할 때 쓸 수 있는 한국어</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        쇼핑 모달입니다.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- sights Modal -->
+<div class="modal fade" id="sightsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        명소모달입니다.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -127,7 +197,7 @@ $(document).ready(function(){
      
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
     mapOption = { 
-        center: new daum.maps.LatLng(<%=@rand_cafe.y%>, <%=@rand_cafe.x%>), // 지도의 중심좌표
+        center: new daum.maps.LatLng(<%=@user_cafe.y%>, <%=@user_cafe.x%>), // 지도의 중심좌표
         level: 3    // 지도의 확대 레벨
     };
 
@@ -136,92 +206,92 @@ var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니�
 // 마커를 표시할 위치와 title 객체 배열입니다 
 var positions = [
     {
-        title: '<%=@rand_cafe.name%>', 
+        title: '<%=@user_cafe.name%>', 
         content:'<div class="wrap">' + 
             '    <div class="info" id="info0">' + 
             '        <div class="title">' + 
-            '            <%=@rand_cafe.name%>' + 
-            '            <div class="close" id="info_close0" title="닫기"></div>' + 
+            '            <%=@user_cafe.name%>' + 
+            //'            <div class="close" id="info_close0" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
             '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
-            '                <div class="ellipsis"><%=@rand_cafe.address%></div>' + 
-            '                <div class="jibun ellipsis">가까운 지하철역 : <%=@rand_cafe.near_subway%></div>' + 
+            '                <div class="ellipsis"><%=@user_cafe.address%></div>' + 
+            '                <div class="jibun ellipsis">가까운 지하철역 : <%=@user_cafe.near_subway%></div>' + 
             '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
-        latlng: new daum.maps.LatLng(<%=@rand_cafe.y%>, <%=@rand_cafe.x%>)
+        latlng: new daum.maps.LatLng(<%=@user_cafe.y%>, <%=@user_cafe.x%>)
     },
     {
-        title: '<%=@rand_restaurant.name%>',
+        title: '<%=@user_restaurant.name%>',
         content: '<div class="wrap" id="info1">' + 
             '    <div class="info" >' + 
             '        <div class="title">' + 
-            '            <%=@rand_restaurant.name%>' + 
-            '            <div class="close" id="info_close1" title="닫기"></div>' + 
+            '            <%=@user_restaurant.name%>' + 
+            //'            <div class="close" id="info_close1" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
             '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
-            '                <div class="ellipsis"><%=@rand_restaurant.address%></div>' + 
-            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@rand_restaurant.near_subway%></div>' + 
+            '                <div class="ellipsis"><%=@user_restaurant.address%></div>' + 
+            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_restaurant.near_subway%></div>' + 
             '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
-        latlng: new daum.maps.LatLng(<%=@rand_restaurant.y%>, <%=@rand_restaurant.x%>)
+        latlng: new daum.maps.LatLng(<%=@user_restaurant.y%>, <%=@user_restaurant.x%>)
     },
     {
-        title: '<%=@rand_shopping.name%>',
+        title: '<%=@user_shopping.name%>',
         content: '<div class="wrap">' + 
             '    <div class="info" id="info2">' + 
             '        <div class="title">' + 
-            '            <%=@rand_shopping.name%>' + 
-            '            <div class="close" id="info_close2" title="닫기"></div>' + 
+            '            <%=@user_shopping.name%>' + 
+            //'            <div class="close" id="info_close2" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
             '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
-            '                <div class="ellipsis"><%=@rand_shopping.address%></div>' + 
-            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@rand_shopping.near_subway%></div>' + 
+            '                <div class="ellipsis"><%=@user_shopping.address%></div>' + 
+            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_shopping.near_subway%></div>' + 
             '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
-        latlng: new daum.maps.LatLng(<%=@rand_shopping.y%>, <%=@rand_shopping.x%>)
+        latlng: new daum.maps.LatLng(<%=@user_shopping.y%>, <%=@user_shopping.x%>)
     },
     {
-        title: '<%=@rand_sights.name%>', 
+        title: '<%=@user_sights.name%>', 
         content:'<div class="wrap">' + 
             '    <div class="info" id="info3">' + 
             '        <div class="title">' + 
-            '            <%=@rand_sights.name%>' + 
-            '            <div class="close" id="info_close3" title="닫기"></div>' + 
+            '            <%=@user_sights.name%>' + 
+            //'            <div class="close" id="info_close3" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
             '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
-            '                <div class="ellipsis"><%=@rand_sights.address%></div>' + 
-            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@rand_sights.near_subway%></div>' + 
+            '                <div class="ellipsis"><%=@user_sights.address%></div>' + 
+            '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_sights.near_subway%></div>' + 
             '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
-        latlng: new daum.maps.LatLng(<%=@rand_sights.y%>, <%=@rand_sights.x%>)
+        latlng: new daum.maps.LatLng(<%=@user_sights.y%>, <%=@user_sights.x%>)
     }
 ];
 
@@ -398,10 +468,10 @@ function MarkerTracker(map, target) {
         setVisible(false);
         //tracker를 클릭하면 아래의 carousel이 바뀝니다! 야호!
         var textCarouselId = new Object();
-        textCarouselId['<%=@rand_cafe.name%>'] = 0;
-        textCarouselId['<%=@rand_restaurant.name%>'] = 1;
-        textCarouselId['<%=@rand_shopping.name%>'] = 2;
-        textCarouselId['<%=@rand_sights.name%>'] = 3;
+        textCarouselId['<%=@user_cafe.name%>'] = 0;
+        textCarouselId['<%=@user_restaurant.name%>'] = 1;
+        textCarouselId['<%=@user_shopping.name%>'] = 2;
+        textCarouselId['<%=@user_sights.name%>'] = 3;
         var target_text = target.node.textContent
         $('.carousel').carousel(textCarouselId[target_text], {interval:false});
         console.log(target)
@@ -630,20 +700,20 @@ function MarkerTracker(map, target) {
 
 var positions = [
     {
-        title: '<%=@rand_cafe.name%>', 
-        latlng: new daum.maps.LatLng(<%=@rand_cafe.y%>, <%=@rand_cafe.x%>)
+        title: '<%=@user_cafe.name%>', 
+        latlng: new daum.maps.LatLng(<%=@user_cafe.y%>, <%=@user_cafe.x%>)
     },
     {
-        title: '<%=@rand_restaurant.name%>', 
-        latlng: new daum.maps.LatLng(<%=@rand_restaurant.y%>, <%=@rand_restaurant.x%>)
+        title: '<%=@user_restaurant.name%>', 
+        latlng: new daum.maps.LatLng(<%=@user_restaurant.y%>, <%=@user_restaurant.x%>)
     },
     {
-        title: '<%=@rand_shopping.name%>', 
-        latlng: new daum.maps.LatLng(<%=@rand_shopping.y%>, <%=@rand_shopping.x%>)
+        title: '<%=@user_shopping.name%>', 
+        latlng: new daum.maps.LatLng(<%=@user_shopping.y%>, <%=@user_shopping.x%>)
     },
     {
-        title: '<%=@rand_sights.name%>', 
-        latlng: new daum.maps.LatLng(<%=@rand_sights.y%>, <%=@rand_sights.x%>)
+        title: '<%=@user_sights.name%>', 
+        latlng: new daum.maps.LatLng(<%=@user_sights.y%>, <%=@user_sights.x%>)
     }
 ];
 
@@ -684,8 +754,17 @@ $(document).ready(function(){
     $('.carousel').carousel({
         interval:false
     });
-    $('#myModal').click(function() {
-        $('#exampleModal').modal();
+    $('#mycafeModal').click(function() {
+        $('#cafeModal').modal();
+    });
+    $('#myrestaurantModal').click(function() {
+        $('#restaurantModal').modal();
+    });
+    $('#myshoppingModal').click(function() {
+        $('#shoppingModal').modal();
+    });
+    $('#mysightsModal').click(function() {
+        $('#sightsModal').modal();
     });
 });
 </script>

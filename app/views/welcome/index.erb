@@ -15,10 +15,12 @@
   </head>
 
 <body>
+<!--web font-->
 <style>@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);</style>
 <style>body, div, button{ font-family: 'Noto Sans KR', sans-serif; }</style>
+
 <div class="" style="position:fixed; z-index:-1; height:100%;">
-  <video autoplay muted loop style="min-width: 100%;min-height: 100%;">
+  <video id ="myvideo" controls="true" playsinline autoplay muted loop style="min-width: 100%;min-height: 100%;">
     <source src="/Summer_in_Seoul_mobile.mp4" type="video/mp4" loop> </source>
   </video>
 </div>
@@ -32,7 +34,10 @@
   </div>
 </div>
 
-<script>
+<script> 
+  $(document).ready(function(){
+    document.getElementById('myvideo').play();  	
+	});
 </script>
 
 </body>
