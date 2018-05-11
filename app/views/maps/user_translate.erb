@@ -1,0 +1,52 @@
+<div class="container">
+<br>
+    <form action="/maps/translate" method="POST">
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">번역하고 싶은 말을 적어주세요.</label>
+            <textarea name ="target_text" id="target_text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input id="submit_translate" type="submit" value="번역하기">
+        <a href="/maps/user_translate_result">번역 확인 하기</a>
+    </form>
+</div>
+
+<!--로딩 모달-->
+<div class="modal fade" id ="loadingModal" tabindex="-1" role="dialog" style="width:100%; height:100%;">
+  <div class="modal-dialog" role="document" style="height:100%;">
+    <div class="modal-content" style="height:100%;">
+      <div class="modal-body" style="height:100%; margin:auto; margin-top:50%; text-align:center" vertical>
+        <span>번역중입니다.</span>
+        <br>
+        <br>
+        <div class="loader"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="fake_complete"type="button" class="btn btn-secondary" data-dismiss="modal" style="display:none">완료</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<% unless @translate_done.nil?%>
+    나의 마지막 번역결과 : <%=@translate_done.output%>
+<%end%><br>
+<audio id="translate_voice_0"><source src="https://tts-translate.kakao.com/newtone?message=<%= @translate_done.output.split.join("%20") %>"></audio>
+    <button id="translate_voice_0" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+<script>
+$("#submit_translate").click(function(){
+    $("#fake_complete").css("display","none");
+    $('#loadingModal').modal();
+    $.ajax({
+        data: {
+            message: $("#target_text").val()
+        },
+        url: "/maps/translate"
+    });
+    setTimeout(function(){ $("#fake_complete").show()}, 3000);
+});
+
+$('button#translate_voice_0').click(function(){
+    $('audio#translate_voice_0').get(0).play();
+});
+
+</script>

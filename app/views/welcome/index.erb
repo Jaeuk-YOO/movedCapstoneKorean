@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CapstoneKorean</title>
+    <title>루트 서울</title>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,17 +20,65 @@
 <style>body, div, button{ font-family: 'Noto Sans KR', sans-serif; }</style>
 
 <div class="" style="position:fixed; z-index:-1; height:100%;">
-  <video id ="myvideo" controls="true" playsinline autoplay muted loop style="min-width: 100%;min-height: 100%;">
+  <video id ="myvideo" controls="true" playsinline autoplay muted loop style="min-width: 100%; min-height: 100%;">
     <source src="/Summer_in_Seoul_mobile.mp4" type="video/mp4" loop> </source>
   </video>
 </div>
   <div class="container">
   <br><br><br><br><br>
-    <h2 style="text-align:center; color:white;">나의 서울 친구</h2>
+    <div id="typed-strings" style="text-align:center;">
+      <span class="typed" style="color:white; font-size:2rem;"></span>
+    </div>
+    <script>
+    $(function(){
+      $(".typed").typed({
+        strings: ["루트 서울", "route seoul", "√ 서울", "√ seoul", "ㄹㅌㅅㅇ"],
+        typeSpeed: 150,
+        backDelay: 1000,
+        backSpeed: 100,
+        loop: true,
+        showCursor: true,
+        cursorChar: '|',
+        fadeOut: false,
+        fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500,
+      });
+    });
+    </script>
+    <style>
+          /* Cursor */
+      .typed-cursor {
+        font-size:2rem;
+        color: white;
+        font-weight: 900;
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+      }
+      @keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+      @-webkit-keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+      @-moz-keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+
+      /* If fade out option is set */
+      .typed-fade-out {}
+    </style>
   </div>
-  <div style="display:table; text-align:center; width:100%; height:70%; position:absolute;">
+  <div class= "container" style="display:table; text-align:center; width:100%; height:70%; position:absolute;">
     <div style="display:table-cell; padding-top:70%; width:100%; height:100%;"> 
-      <a href="/entrance/select_location" class="btn text-center wait_enter" style="background-color:#E0859A; color:black;" role="button" aria-pressed="true">시작하기</a>
+      <a href="/entrance/select_location" class="btn text-center btn-block" style="background-color:#E0859A; color:black;" role="button" aria-pressed="true">로그인 하기</a>
   </div>
 </div>
 

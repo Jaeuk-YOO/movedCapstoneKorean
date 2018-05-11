@@ -1,140 +1,133 @@
 <br>
 <div class="container">
-    <div class="alert alert-danger" role="alert">
-      개발자 한국어학 12학번유재욱입니다. 차후 수정을 통해 단순한 글이 아닌 알맞은 사진과 함께 각각 들어가 있을 겁니다..T_T
+    <div class="alert alert-warning" role="alert">
+      오늘은 어떤 곳으로 떠나볼까요? 가고 싶은 곳을 클릭해서 지역 정보를 확인하고, 선택하기 버튼을 눌러 선택해주세요. 
     </div>
     <div id="accordion">
-    <div class="card">
-      <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <h5 class="mb-0">
-          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            서촌
-          </button>
-        </h5>
-      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              서촌
+            </button>
+          </h5>
+        </div>
 
-      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body">
-          <div class="alert alert-success" role="alert">
-          <h5>소개</h5>
-            서촌은 경복궁 서쪽에 있는 마을을 일컫는 별칭입니다. 고궁과 가깝고 청와대와도 가깝기 때문에 오랫동안 개발이 제한되어 과거의 것이 많이 남게 되었던 지역이죠. 그렇기에 오래된 시설들이 지금에 와서 볼거리가 되어 최근에 관광명소로 떠오르기 시작한 곳이죠.
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>소개</h5>
+              서촌은 경복궁 서쪽에 있는 마을을 일컫는 별칭입니다. 고궁과 가깝고 청와대와도 가깝기 때문에 오랫동안 개발이 제한되어 과거의 것이 많이 남게 되었던 지역이죠. 그렇기에 오래된 시설들이 지금에 와서 볼거리가 되어 최근에 관광명소로 떠오르기 시작한 곳이죠.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 1</h5>
+              서촌에 가서 골목골목을 돌아다닐 때는 이정표가 많이 없기 때문에 지나가는 사람에게 길을 물어보는 것이 더 빨라요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 2</h5>서촌과 경복궁 북촌은 모두 직선상으로 이어져있기 때문에 세 곳을 묶어 한 번에 관광하는 것을 추천!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 3</h5>세종마을의 '음식문화의거리'에는 다양한 음식점이 들어서있으며 한 끼가 부담스럽다면, 그 북쪽에는 통인시장이 자리 잡고 있으니 시장에서 간단히 음식을 먹을 수도 있어요!
+            </div>
+            <div class="alert alert-danger" role="alert">
+            <h5>Caution!</h5>서촌은 골목 안으로 들어갈수록 북촌에 비해 주거지역이 많으니 주의하도록 합시다!
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+            <input type="text" value="seochon" name="region" style="display:none;">
+            <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
           </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 1</h5>
-            서촌에 가서 골목골목을 돌아다닐 때는 이정표가 많이 없기 때문에 지나가는 사람에게 길을 물어보는 것이 더 빨라요!
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              홍대
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>소개</h5>
+              홍익대학교 근처를 보통 지칭하는 공간으로 줄여서 홍대라고 불러요. 서울을 대표하는 '젊음의 거리'예요. 인디음악, 회화, 디자인 등 다양한 장르의 문화가 혼재된 장소이기도 하죠. 다양한 카페, 갤러리, 편집샵, 소품샵을 비롯해 라이브 카페와 클럽, 맛집으로 유명한 홍대는 낮, 밤, 평일, 주말할 것 없이 언제나 사람들이 북적이는 장소예요. 
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 1</h5>
+              벽화거리와 주말마다 열리는 홍대 놀이터 앞 플리마켓 등을 둘러보는 것을 추천해요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 2</h5>
+              근처의 '경의선 숲길'이 핫플레이스로 자리매김하기도 했죠. 경의선 숲길은 '센트럴파크'를 패러디한 '연트럴파크'라 불리며, 숲길 주변으로 다양한 카페, 펍, 상점들이 펼쳐져 있으며 개성 있는 요리들로 유명해요! 곳곳에서 산책을 하거나 돗자리를 펴고 음악을 들으며 맥주를 마시는 사람들을 볼 수 있으니 돗자리를 챙겨가면 좋아요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 3</h5>
+              약 200여 개의 클럽들이 모여 있는 홍대는 국내 클럽문화의 메카죠. 클럽에서는 인기 DJ들의 디제잉과 인디밴드 공연을 만날 수 있어요. 거리에서는 버스킹 공연이 자주 이루어지기 때문에 참고하면 좋아요!
+            </div>
+            <div class="alert alert-danger" role="alert">
+            <h5>Caution!</h5>
+              굉장히 광범위하고 골목이 복잡한 지역이기 때문에 길을 잃기 쉬워요. 그렇기 때문에 홍대입구역 9번 출구에서 나와 사거리에서 왼쪽으로 꺾으면 나오는 관광안내소에서 도움을 받는 것이 좋아요.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+            <input type="text" value="hongdae" name="region" style="display:none;">
+            <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
           </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 2</h5>서촌과 경복궁 북촌은 모두 직선상으로 이어져있기 때문에 세 곳을 묶어 한 번에 관광하는 것을 추천!
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              명동
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>소개</h5>
+              명동은 거대한 쇼핑도시를 연상케 하는 공간으로 한국 쇼핑과 패션의 중심지입니다. 명동거리에는 한국인보다 외국인이 더 많을 정도이고, 그만큼 한류 팬들에게는 한국 관광의 필수 코스가 되었죠.
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <h5>역사 문화</h5>
+              역사적으로, 조선시대 때는 명동은 주택지역이었으나 일제강점기 때 상업지구로 변모하여 서울의 번화가가 되기 시작했어요. 그 후 광복과 6ㆍ25전쟁을 거치며 1956년 이후에 대형 백화점과 각종 금융기관, 사무실이 들어서면서 지금의 모습을 갖추게 되었어요. 명동 중심거리에서 조금 오른쪽으로 나와 가다보면 명동성당이라는 곳이 있는데 이 성당은 한국 최초의 본당(parish)으로, 한국 천주교를 대변하는 성당으로 명동의 랜드마크이기도 해요.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 1</h5>
+              거의 모든 가게의 직원들이 영어(중국어, 일본어)를 구사할 수 있기 때문에 의사소통에 있어서 큰 걱정을 하지 않아도 됩니다.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 2</h5>
+              Tax Free가 되는 가게가 많아요. 명동에서 쇼핑할 때는 여권을 챙겨가서 이득을 챙길 수 있도록 해요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 3</h5>
+              명동에는 환전소가 많아요. 급하게 한국돈이 필요하고, 환전할 수 있는 돈이 있다면, 카드 대출 및 외환 환전 수수료보다 싼 값으로 환전할 수 있어요. 
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 4</h5>
+              쇼핑 외에도 골목골목에는 다양한 음식점이 있으며 점심이 조금 지나면 거리에는 수많은 노점상들이 오픈하기 때문에 구경하는 재미가 쏠쏠하죠. 보통 밤 10시가 지나면 가게들이 문을 닫기 때문에 너무 늦지 않게 방문하는 것이 좋아요.
+            </div>
+            <div class="alert alert-danger" role="alert">
+            <h5>Caution!</h5>
+              사람이 많은 만큼 소매치기가 있는 곳이라 소지품을 잘 챙겨다녀야 해요. 명동에는 경찰서가 있기 때문에 경찰서를 미리 확인을 해두는 것이 좋습니다.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+            <input type="text" value="myeongdong" name="region" style="display:none;">
+            <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
           </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 3</h5>세종마을의 '음식문화의거리'에는 다양한 음식점이 들어서있으며 한 끼가 부담스럽다면, 그 북쪽에는 통인시장이 자리 잡고 있으니 시장에서 간단히 음식을 먹을 수도 있어요!
-          </div>
-          <div class="alert alert-danger" role="alert">
-          <h5>Caution!</h5>서촌은 골목 안으로 들어갈수록 북촌에 비해 주거지역이 많으니 주의하도록 합시다!
-          </div>
-          <form action="/entrance/select_location_post" method="POST">
-          <input type="text" value="seochon" name="region" style="display:none;">
-          <button type="submit" class="btn btn-light">선택하기</button>
-          </form>
         </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            홍대
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          <div class="alert alert-success" role="alert">
-          <h5>소개</h5>
-            홍익대학교 근처를 보통 지칭하는 공간으로 줄여서 홍대라고 불러요. 서울을 대표하는 '젊음의 거리'예요. 인디음악, 회화, 디자인 등 다양한 장르의 문화가 혼재된 장소이기도 하죠. 다양한 카페, 갤러리, 편집샵, 소품샵을 비롯해 라이브 카페와 클럽, 맛집으로 유명한 홍대는 낮, 밤, 평일, 주말할 것 없이 언제나 사람들이 북적이는 장소예요. 
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 1</h5>
-            벽화거리와 주말마다 열리는 홍대 놀이터 앞 플리마켓 등을 둘러보는 것을 추천해요!
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 2</h5>
-            근처의 '경의선 숲길'이 핫플레이스로 자리매김하기도 했죠. 경의선 숲길은 '센트럴파크'를 패러디한 '연트럴파크'라 불리며, 숲길 주변으로 다양한 카페, 펍, 상점들이 펼쳐져 있으며 개성 있는 요리들로 유명해요! 곳곳에서 산책을 하거나 돗자리를 펴고 음악을 들으며 맥주를 마시는 사람들을 볼 수 있으니 돗자리를 챙겨가면 좋아요!
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 3</h5>
-            약 200여 개의 클럽들이 모여 있는 홍대는 국내 클럽문화의 메카죠. 클럽에서는 인기 DJ들의 디제잉과 인디밴드 공연을 만날 수 있어요. 거리에서는 버스킹 공연이 자주 이루어지기 때문에 참고하면 좋아요!
-          </div>
-          <div class="alert alert-danger" role="alert">
-          <h5>Caution!</h5>
-            굉장히 광범위하고 골목이 복잡한 지역이기 때문에 길을 잃기 쉬워요. 그렇기 때문에 홍대입구역 9번 출구에서 나와 사거리에서 왼쪽으로 꺾으면 나오는 관광안내소에서 도움을 받는 것이 좋아요.
-          </div>
-          <form action="/entrance/select_location_post" method="POST">
-          <input type="text" value="hongdae" name="region" style="display:none;">
-          <button type="submit" class="btn btn-light">선택하기</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        <h5 class="mb-0">
-          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            명동
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          <div class="alert alert-success" role="alert">
-          <h5>소개</h5>
-            명동은 거대한 쇼핑도시를 연상케 하는 공간으로 한국 쇼핑과 패션의 중심지입니다. 명동거리에는 한국인보다 외국인이 더 많을 정도이고, 그만큼 한류 팬들에게는 한국 관광의 필수 코스가 되었죠.
-          </div>
-          <div class="alert alert-warning" role="alert">
-            <h5>역사 문화</h5>
-            역사적으로, 조선시대 때는 명동은 주택지역이었으나 일제강점기 때 상업지구로 변모하여 서울의 번화가가 되기 시작했어요. 그 후 광복과 6ㆍ25전쟁을 거치며 1956년 이후에 대형 백화점과 각종 금융기관, 사무실이 들어서면서 지금의 모습을 갖추게 되었어요. 명동 중심거리에서 조금 오른쪽으로 나와 가다보면 명동성당이라는 곳이 있는데 이 성당은 한국 최초의 본당(parish)으로, 한국 천주교를 대변하는 성당으로 명동의 랜드마크이기도 해요.
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 1</h5>
-            거의 모든 가게의 직원들이 영어(중국어, 일본어)를 구사할 수 있기 때문에 의사소통에 있어서 큰 걱정을 하지 않아도 됩니다.
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 2</h5>
-            Tax Free가 되는 가게가 많아요. 명동에서 쇼핑할 때는 여권을 챙겨가서 이득을 챙길 수 있도록 해요!
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 3</h5>
-            명동에는 환전소가 많아요. 급하게 한국돈이 필요하고, 환전할 수 있는 돈이 있다면, 카드 대출 및 외환 환전 수수료보다 싼 값으로 환전할 수 있어요. 
-          </div>
-          <div class="alert alert-primary" role="alert">
-          <h5>Tip 4</h5>
-            쇼핑 외에도 골목골목에는 다양한 음식점이 있으며 점심이 조금 지나면 거리에는 수많은 노점상들이 오픈하기 때문에 구경하는 재미가 쏠쏠하죠. 보통 밤 10시가 지나면 가게들이 문을 닫기 때문에 너무 늦지 않게 방문하는 것이 좋아요.
-          </div>
-          <div class="alert alert-danger" role="alert">
-          <h5>Caution!</h5>
-            사람이 많은 만큼 소매치기가 있는 곳이라 소지품을 잘 챙겨다녀야 해요. 명동에는 경찰서가 있기 때문에 경찰서를 미리 확인을 해두는 것이 좋습니다.
-          </div>
-          <form action="/entrance/select_location_post" method="POST">
-          <input type="text" value="myeongdong" name="region" style="display:none;">
-          <button type="submit" class="btn btn-light">선택하기</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
     
 <style>
 .check
 {
-    opacity:0.5;
+  opacity:0.5;
 	color:#996;	
 }
 </style>
-
-
-<script>
-    $(document).ready(function(e){
-    	
-	});
-</script>

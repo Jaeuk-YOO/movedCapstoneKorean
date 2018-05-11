@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/assets/recommend_map.css">
 <br>
 <div class="alert alert-info" role="alert">
   <%if @current_user_select_to_view.location == "seochon"%>
@@ -55,6 +56,7 @@
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_restaurant.address%></div>
                 <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_restaurant.near_subway%></div>
+                <button type="button" class="btn btn-sm btn-light" id="mydetailModal_<%=@user_restaurant.id%>" data-toggle="modal" data-target="#detailModal">자세히보기</button>
                 <button type="button" class="btn btn-sm btn-light" id="myrestaurantModal" data-toggle="modal" data-target="#restaurantModal">표현 확인하기</button>
             </div> 
         </div> 
@@ -111,157 +113,18 @@
   </a>
 </div>
 
-<!-- cafe Modal -->
-<div class="modal fade" id="cafeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
+<!--모달 자리-->
+<%= render "recommend_modal" %>
+<!-- 모달 자리 끝-->
 
-        <!-- 모달 아코디언-->
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    카페에서 사용할 수 있는 구문표현
-                    </button>
-                </h5>
-                </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    Please give me 1 hot coffee<br>
-                    - 따뜻한 아메리카노 한 잔 주세요.
-                    <audio id="cafe_voice_1"><source src="https://tts-translate.kakao.com/newtone?message=따뜻한 아메리카노 한 잔 주세요."></audio>
-                    <button id="cafe_voice_1" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
-                    Please give me 2 ice coffees<br>
-                    - 아이스 아메리카노 두 잔 주세요.
-                    <audio id="cafe_voice_2"><source src="https://tts-translate.kakao.com/newtone?message=아이스 아메리카노 두 잔 주세요."></audio>
-                    <button id="cafe_voice_2" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
-                    Do you have non-caffeinated drinks?<br>
-                    - 카페인 없는 음료 있어요?
-                    <audio id="cafe_voice_3"><source src="https://tts-translate.kakao.com/newtone?message=카페인 없는 음료 있어요?"></audio>
-                    <button id="cafe_voice_3" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
-                    I’ll drink it here.<br>
-                    - 여기서 먹고 갈게요.
-                    <audio id="cafe_voice_4"><source src="https://tts-translate.kakao.com/newtone?message=여기서 먹고 갈게요."></audio>
-                    <button id="cafe_voice_4" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
-                    I’d like this to go<br>
-                    - 테이크 아웃할게요.<br><br>
-                    Please throw away my receipt<br>
-                    - 영수증은 버려주세요.<br><br>
-                    Do you have wifi?<br>
-                    - 와이파이 되나요?<br><br>
-                    What’s the wifi password?<br>
-                    - 와이파이 비밀번호가 뭐예요?<br><br>
-                    Is there an outlet?<br>
-                    - 콘센트 있어요?<br><br>
-                    Where are your electrical outlets?<br>
-                    - 콘센트 어디에 있어요?<br><br>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    체험카페에서 활용할 수 있는 구문표현
-                    </button>
-                </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body"> 
-                    How can I use this? play?<br>
-                    - 어떻게 이용하나요?<br><br>
-                    How much is it per hour?<br>
-                    - (한 시간)에 얼마인가요?<br><br>
-                    Where can I keep my luggage?<br>
-                    - 짐은 어디에 두나요? / 짐은 어디에 보관하나요?<br><br>
-                    I'd like to play it for one more hour. (how much is it cost?) How much extra would it be<br>
-                    - (한 시간) 더 이용하고 싶어요. 추가 요금이 얼마인가요?<br><br>
-                </div>
-                </div>
-            </div>
-        </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- restaurant Modal -->
-<div class="modal fade" id="restaurantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        레스토랑 모달입니다.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- shopping Modal -->
-<div class="modal fade" id="shoppingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">쇼핑할 때 쓸 수 있는 한국어</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        쇼핑 모달입니다.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- sights Modal -->
-<div class="modal fade" id="sightsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        명소모달입니다.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=blind"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script>
 <script type="text/javascript">
+var button_test = function(){
+    $('#detailModal_<%=@user_restaurant.id%>').modal();
+}
 $(document).ready(function(){
-     
+
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
     mapOption = { 
         center: new daum.maps.LatLng(<%=@user_cafe.y%>, <%=@user_cafe.x%>), // 지도의 중심좌표
@@ -287,7 +150,7 @@ var positions = [
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_cafe.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 : <%=@user_cafe.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
+            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -309,7 +172,7 @@ var positions = [
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_restaurant.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_restaurant.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
+            '                <div><button class="btn btn-sm btn-link" type="button" onclick="button_test();" id="mydetailModal_<%=@user_restaurant.id%>" data-toggle="modal" data-target="#detailModal">자세히보기</button></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -331,7 +194,7 @@ var positions = [
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_shopping.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_shopping.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
+            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -353,7 +216,7 @@ var positions = [
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_sights.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_sights.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
+            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -818,10 +681,7 @@ markerTracker1.run();
 markerTracker2.run();
 markerTracker3.run();
 markerTracker4.run();
-});
-</script>
-<script>
-$(document).ready(function(){
+
     $('.carousel').carousel({
         interval:false
     });
@@ -837,124 +697,44 @@ $(document).ready(function(){
     $('#mysightsModal').click(function() {
         $('#sightsModal').modal();
     });
-    $('button#cafe_voice_1').click(function(){
-        $('audio#cafe_voice_1').get(0).play();
+    $('#mydetailModal_<%=@user_restaurant.id%>').click(function() {
+        $('#detailModal_<%=@user_restaurant.id%>').modal();
     });
-    $('button#cafe_voice_2').click(function(){
-        $('audio#cafe_voice_2').get(0).play();
-    });
-    $('button#cafe_voice_3').click(function(){
-        $('audio#cafe_voice_3').get(0).play();
-    });
-    $('button#cafe_voice_4').click(function(){
-        $('audio#cafe_voice_4').get(0).play();
+    
+/*
+    $('#submit_translate').click(function() {
+        $("#fake_complete").css("display","none");
+        $('#loadingModal').modal();
+        $.ajax({
+            data: {
+                target_text: $("#target_text").val()
+            },
+            method: "POST",
+            url: "/maps/translate",
+        });
+        setTimeout(function(){ $("#fake_complete").show()}, 3000);
     });
 
+    $("#fake_complete").click(function(){
+        $.ajax({
+            url: "/maps/translate_out",
+            method: "GET",
+        })
+        .done(function(response){
+            $("#translateDoneAppend").append("<span>"+<%= current_user.user_translates.all%>+"</span>")
+        });
+    });
+*/
+    <%@expression_korean.length.times do |x|%>
+    $('button#cafe_voice_<%=x+1%>').click(function(){
+        $('audio#cafe_voice_<%=x+1%>').get(0).play();
+    });
+    <%end%>
+
+    <% @expression_korean_experience.length.times do |x|%>
+    $('button#cafe_voice_exp_<%=x+1%>').click(function(){
+        $('audio#cafe_voice_exp_<%=x+1%>').get(0).play();
+    });
+    <%end%>
 });
 </script>
-
-
-<!-- 관련 내용  css -->
-<style>
-.node {
-    position: absolute;
-    background-image: url(https://use.fontawesome.com/releases/v5.0.10/svgs/solid/coffee.svg);
-    cursor: pointer;
-    width: 100%;
-    font-size:3em;
-}
-
-.tooltip {
-    background-color: #fff;
-    position: absolute;
-    border: 2px solid #333;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 3px 5px 0;
-    left: 65px;
-    top: 14px;
-    border-radius: 5px;
-    white-space: nowrap;
-    display: none;
-}
-
-.tracker {
-    position: absolute;
-    margin: -35px 0 0 -30px;
-    display: none;
-    cursor: pointer;
-    z-index: 3;
-}
-
-.icon {
-    position: absolute;
-    left: 6px;
-    top: 9px;
-    width: 48px;
-    height: 48px;
-    background-image: url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/sign-info-48.png);
-}
-
-.icon_cafe{
-    position: absolute;
-    left: 6px;
-    top: 9px;
-    width: 48px;
-    height: 48px;
-    background-image: url(/cafe_48.png);
-}
-
-.icon_restaurant{
-    position: absolute;
-    left: 6px;
-    top: 9px;
-    width: 48px;
-    height: 48px;
-    background-image: url(/restaurant_48.png);
-}
-
-.icon_shopping{
-    position: absolute;
-    left: 6px;
-    top: 9px;
-    width: 48px;
-    height: 48px;
-    background-image: url(/shopping_48.png);
-}
-
-.icon_sights{
-    position: absolute;
-    left: 6px;
-    top: 9px;
-    width: 48px;
-    height: 48px;
-    background-image: url(/sights_48.png);
-}
-
-.balloon {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-image: url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/balloon.png);
-    -ms-transform-origin: 50% 34px;
-    -webkit-transform-origin: 50% 34px;
-    transform-origin: 50% 34px;
-}
-</style>
-
-<style>
-    .wrap {position: absolute;left: 0;bottom: 40px;width: 288px;height: 132px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;line-height: 1.5;}
-    .wrap * {padding: 0;margin: 0;}
-    .wrap .info {width: 286px;height: 120px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
-    .wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
-    .info .title {padding: 5px 0 0 10px;height: 30px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
-    .info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
-    .info .close:hover {cursor: pointer;}
-    .info .body {position: relative;overflow: hidden;}
-    .info .desc {position: relative;margin: 13px 0 0 90px;height: 75px;}
-    .desc .ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
-    .desc .jibun {font-size: 11px;color: #888;margin-top: -2px;}
-    .info .img {position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
-    .info:after {content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
-    .info .link {color: #5085BB;}
-</style>

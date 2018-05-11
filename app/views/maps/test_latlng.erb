@@ -1,4 +1,4 @@
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=blind"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script>
 <div id="map" style="width:100%;height:350px;"></div>  
 <p>
     <em>지도를 마우스로 클릭하면 선 그리기가 시작되고<br>오른쪽 마우스를 클릭하면 선 그리기가 종료됩니다</em>
@@ -10,11 +10,13 @@ Number.prototype.toRad = function() {
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
     mapOption = { 
-        center: new daum.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+        center: new daum.maps.LatLng(37.56245170060758, 126.98466131067882), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     };
+    console.log("A공간의 위치를 기준으로 B공간과 C공간의 거리 차이를 비교합니다.")
     console.log(calculateDistance(37.56245170060758, 126.98466131067882, 37.5772905703918, 126.97198820614089))
     console.log(calculateDistance(37.5772905703918, 126.97198820614089, 37.58166759847871, 126.98104360909326))
+    console.log("A공간과-C공간보다 A공간과-B공간의 거리 차이가 더 많이 납니다.")
 var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
 var drawingFlag = false; // 선이 그려지고 있는 상태를 가지고 있을 변수입니다

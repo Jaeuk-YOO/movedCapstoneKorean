@@ -1,0 +1,86 @@
+<!-- cafe Modal -->
+<div class="modal fade" id="cafeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <!-- 모달 아코디언-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    카페에서 사용할 수 있는 구문표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <% expression_korean_index = @expression_korean.keys%>
+                    <% i=1 %>
+                    <% @expression_korean.each do |each_expression_kr, each_expression_en|%>
+                        <%= each_expression_en%><br>
+                        - <%= each_expression_kr %>
+                        <audio id="cafe_voice_<%=i%>"><source src="https://tts-translate.kakao.com/newtone?message=<%= each_expression_kr.to_s.split.join("%20") %>"></audio>
+                        <button id="cafe_voice_<%=i%>" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                        <%i=i+1%>
+                    <%end%>    
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    체험카페에서 활용할 수 있는 구문표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body"> 
+                    <% expression_korean_experience_index = @expression_korean_experience.keys%>
+                    <% i=1 %>
+                    <% @expression_korean_experience.each do |each_expression_kr, each_expression_en|%>
+                        <%= each_expression_en%><br>
+                        - <%= each_expression_kr %>
+                        <audio id="cafe_voice_exp_<%=i%>"><source src="https://tts-translate.kakao.com/newtone?message=<%= each_expression_kr.to_s.split.join("%20") %>"></audio>
+                        <button id="cafe_voice_exp_<%=i%>" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                        <%i=i+1%>
+                    <%end%>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    번역하기
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="container">
+                    <br>
+                        <a href="/maps/user_translate" class="btn text-center btn-block" style="background-color:#E0859A; color:black;" role="button" aria-pressed="true">번역 하기</a>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>

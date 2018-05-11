@@ -1,0 +1,12 @@
+<div class="container">
+<br>
+    <h4>나의 마지막 번역 결과</h4><br><br>
+    <h5> <%=@translate_done.output%></h5><br>
+    <audio id="translate_voice_0"><source src="https://tts-translate.kakao.com/newtone?message=<%= @translate_done.output.split.join("%20") %>"></audio>
+    <button id="translate_voice_0" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+</div>
+<script>
+$('button#translate_voice_0').click(function(){
+    $('audio#translate_voice_0').get(0).play();
+});
+</script>
