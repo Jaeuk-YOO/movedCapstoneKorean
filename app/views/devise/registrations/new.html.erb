@@ -1,13 +1,12 @@
 <style>
 html, body {
   background-color:#f5f6f7;
-
   !important;
 }
 </style>
 
 <div class="container" style="background-image:url('http://jetnews.com.mx/wp-content/uploads/2017/01/52.jpg'); background-repeat: no-repeat; background-size: 150%; height:100%;">
-  <br><br><br><h4 style="color:white; text-shadow:black 3px 3px 3px;">당신의 서울 여행 걱정 <br>루트서울이 줄여드립니다.</h4><br><br><br><br> 
+  <br><br><br><h4 style="color:white; text-shadow:black 3px 3px 3px;">당신의 서울 여행 걱정 <br>루트서울이 덜어드립니다.</h4><br><br><br><br> 
 </div>
 <div class="container vertical_wrap" style="display:table; width:100%; height:100%;">
 <div class="align-middle" style="display:table-cell; text-align: left;">
@@ -37,6 +36,15 @@ html, body {
   <div class="field">
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control", type:"password", placeholder:"비밀번호를 다시 한 번 입력해주세요."  %>
+  </div>
+  <br>
+  <div class="field">
+      <%= f.label :language %><br>
+      <%= f.select :language, {}, {}, {class:"custom-select"} do %>
+        <% [['Korean', 1], ['English', 2], ['Japanese', 2], ['Chinese', 2]].each do |c| %>
+          <%= content_tag(:option, c.first, value: c.last) %>
+        <% end %>
+      <%end%>
   </div>
   <br>
   <button class="btn text-center btn-block" style="background-color:#E0859A; color:black;" type="submit" name="commit" value="회원가입">

@@ -1,38 +1,36 @@
 <link rel="stylesheet" type="text/css" href="/assets/recommend_map.css">
 <br>
-<div class="alert alert-info" role="alert">
+<div class="alert alert-warning" role="alert" style="margin-bottom:0px;">
   <%if @current_user_select_to_view.location == "seochon"%>
-    서촌지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+    <%= current_user.nickname%>님에게 알맞은 서촌지역 추천 경로입니다. <i class="fas fa-compass"></i><br>
   <%elsif  @current_user_select_to_view.location == "myeongdong"%>
-    명동지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+    <%= current_user.nickname%>님에게 알맞은 명동지역 추천 경로입니다. <i class="fas fa-compass"></i><br>
   <%elsif @current_user_select_to_view.location == "hongdae"%>
-    홍대지역 추천하기 시뮬레이션입니다.<i class="fas fa-coffee"></i><br>
+    <%= current_user.nickname%>님에게 알맞은 홍대지역 추천 경로입니다. <i class="fas fa-compass"></i><br>
   <%end%>
-    오늘의 추천 코스는 카페 -> 밥집 -> 쇼핑 -> 명소 순서입니다.
-    <br>지도가 보이지 않으시면, 새로고침을 해주세요!
-</div>
-
+    추천 코스 : 카페 -> 밥집 -> 쇼핑 -> 명소
+</div><br>
 
 <div id="map" style="width:100%;height:400px;"></div>
 
-<div id="carouselExampleIndicators" class="carousel slide">
+<div id="carouselExampleIndicators" class="carousel slide" style="background-color:#E0859A;">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" id="dkpos1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" id="dkpos2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" id="dkpos3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3" id="dkpos4"></li>
   </ol>
   <div style="background-color:#E0859A;"><br></div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div alt="First slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
-            <div class="recommend_title">
+            <div class="recommend_title" style="display: inline-block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                 오늘의 카페 : <%=@user_cafe.name%>
             </div>
         <div class="body">
             <div class="img">
-                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
+                <img src="/khu_mark.jpg" width="73" height="70">
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_cafe.address%></div>
@@ -46,17 +44,16 @@
     <div class="carousel-item">
       <div alt="Second slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
-            <div class="recommend_title">
+            <div class="recommend_title" style="display: inline-block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                 오늘의 밥집 : <%=@user_restaurant.name%>
             </div>
         <div class="body">
             <div class="img">
-                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
+                <img src="/khu_mark.jpg" width="73" height="70">
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_restaurant.address%></div>
                 <div class="ellipsis" style="font-size:12px;">가까운 지하철역 : <%=@user_restaurant.near_subway%></div>
-                <button type="button" class="btn btn-sm btn-light" id="mydetailModal_<%=@user_restaurant.id%>" data-toggle="modal" data-target="#detailModal">자세히보기</button>
                 <button type="button" class="btn btn-sm btn-light" id="myrestaurantModal" data-toggle="modal" data-target="#restaurantModal">표현 확인하기</button>
             </div> 
         </div> 
@@ -66,12 +63,12 @@
     <div class="carousel-item">
       <div alt="Third slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
-            <div class="recommend_title">
+            <div class="recommend_title" style="display: inline-block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                 오늘의 쇼핑 : <%=@user_shopping.name%>
             </div>
         <div class="body">
             <div class="img">
-                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
+                <img src="/khu_mark.jpg" width="73" height="70">
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_shopping.address%></div>
@@ -85,12 +82,12 @@
     <div class="carousel-item">
       <div alt="Forth slide" style="height:150px; background-color:#E0859A; color:white;">
         <div class="info container">
-            <div class="recommend_title">
+            <div class="recommend_title" style="display: inline-block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                 오늘의 명소 : <%=@user_sights.name%>
             </div>
         <div class="body">
             <div class="img">
-                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">
+                <img src="/khu_mark.jpg" width="73" height="70">
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_sights.address%></div>
@@ -112,12 +109,20 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div class="col-12" style="background-color:#E0859A;">
+<br>
+    <a class="btn btn-light btn-sm btn-block" href="/maps/recommend_test">추천 경로 새로 받기</a>
+    <br>
+    <a class="btn btn-light btn-sm btn-block" href="/entrance/select_location">여행지 선택 새로하기</a>
+    <br>
+    <br>
+</div>
 
 <!--모달 자리-->
 <%= render "recommend_modal" %>
 <!-- 모달 자리 끝-->
 
-
+<!-- 다음 지도 api appkey -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script>
 <script type="text/javascript">
 var button_test = function(){
@@ -134,67 +139,71 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
  
 // 마커를 표시할 위치와 title 객체 배열입니다 
-var positions = [
+var marker_positions = [
     {
         title: '<%=@user_cafe.name%>', 
-        content:'<div class="wrap">' + 
+        content: '<a class="badge badge-pill badge-warning" id="info_open0" onclick="openFunction0()" title="열기" style="display:none;"> 열기 </a>' +  
+            '<div class="wrap" id="wrap0">' +
             '    <div class="info" id="info0">' + 
             '        <div class="title">' + 
             '            <%=@user_cafe.name%>' + 
-            //'            <div class="close" id="info_close0" title="닫기"></div>' + 
+            '            <div class="close" id="info_close0" onclick="closeFunction0()" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
-            '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
+            '                <img src="/khu_mark.jpg" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_cafe.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 : <%=@user_cafe.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
+            '                <div><a href="http://www.khu.ac.kr" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
         latlng: new daum.maps.LatLng(<%=@user_cafe.y%>, <%=@user_cafe.x%>)
     },
-    {
+    {   
         title: '<%=@user_restaurant.name%>',
-        content: '<div class="wrap" id="info1">' + 
-            '    <div class="info" >' + 
+        content: '<a class="badge badge-pill badge-warning" id="info_open1" onclick="openFunction1()" title="열기" style="display:none;"> 열기 </a>' + 
+            '<div class="wrap" id="wrap1">' + 
+            '    <div class="info" id="info1">' + 
             '        <div class="title">' + 
             '            <%=@user_restaurant.name%>' + 
-            //'            <div class="close" id="info_close1" title="닫기"></div>' + 
+            '            <div class="close" id="info_close1" onclick="closeFunction1()" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
-            '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
+            '                <img src="/khu_mark.jpg" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_restaurant.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_restaurant.near_subway%></div>' + 
-            '                <div><button class="btn btn-sm btn-link" type="button" onclick="button_test();" id="mydetailModal_<%=@user_restaurant.id%>" data-toggle="modal" data-target="#detailModal">자세히보기</button></div>' + 
+            '                <div><a href="http://www.khu.ac.kr" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
             '</div>',
+        
         latlng: new daum.maps.LatLng(<%=@user_restaurant.y%>, <%=@user_restaurant.x%>)
     },
     {
         title: '<%=@user_shopping.name%>',
-        content: '<div class="wrap">' + 
+        content: '<a class="badge badge-pill badge-warning" id="info_open2" onclick="openFunction2()" title="열기" style="display:none;"> 열기 </a>' + 
+            '<div class="wrap" id="wrap2">' + 
             '    <div class="info" id="info2">' + 
             '        <div class="title">' + 
             '            <%=@user_shopping.name%>' + 
-            //'            <div class="close" id="info_close2" title="닫기"></div>' + 
+            '            <div class="close" id="info_close2" onclick="closeFunction2()" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
-            '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
+            '                <img src="/khu_mark.jpg" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_shopping.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_shopping.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
+            '                <div><a href="http://www.khu.ac.kr" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -203,20 +212,21 @@ var positions = [
     },
     {
         title: '<%=@user_sights.name%>', 
-        content:'<div class="wrap">' + 
+        content: '<a class="badge badge-pill badge-warning" id="info_open3" onclick="openFunction3()" title="열기" style="display:none;"> 열기 </a>' + 
+            '<div class="wrap" id="wrap3">' + 
             '    <div class="info" id="info3">' + 
             '        <div class="title">' + 
             '            <%=@user_sights.name%>' + 
-            //'            <div class="close" id="info_close3" title="닫기"></div>' + 
+            '            <div class="close" id="info_close3" onclick="closeFunction3()" title="닫기"></div>' + 
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
-            '                <img src="http://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
+            '                <img src="/khu_mark.jpg" width="73" height="70">' +
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_sights.address%></div>' + 
             '                <div class="jibun ellipsis">가까운 지하철역 :<%=@user_sights.near_subway%></div>' + 
-            '                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' + 
+            '                <div><a href="http://www.khu.ac.kr" target="_blank" class="link">자세히보기</a></div>' + 
             '            </div>' + 
             '        </div>' + 
             '    </div>' +    
@@ -228,7 +238,7 @@ var positions = [
 // 마커 이미지의 이미지 주소입니다
 var imageSrc = "http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
   
-for (var i = 0; i < positions.length; i ++) {
+for (var i = 0; i < marker_positions.length; i ++) {
     // 마커 status 값을 초기화합니다.
     var markerStatus = false;   
     // 마커 이미지의 이미지 크기 입니다
@@ -240,21 +250,23 @@ for (var i = 0; i < positions.length; i ++) {
     // 마커를 생성합니다
     var marker = new daum.maps.Marker({
         map: map, // 마커를 표시할 지도
-        position: positions[i].latlng, // 마커를 표시할 위치
-        title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+        position: marker_positions[i].latlng, // 마커를 표시할 위치
+        title : marker_positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
         image : markerImage, // 마커 이미지 
     });
     // 마커 위에 커스텀오버레이를 표시합니다
     // 마커를 중심으로 커스텀 오버레이를 표시하기위해 CSS를 이용해 위치를 설정했습니다
 
     var overlay = new daum.maps.CustomOverlay({
-        content: positions[i].content,
+        content: marker_positions[i].content,
         map: map,
-        position: marker.getPosition()
+        position: marker.getPosition(),
     });
+    console.log(overlay);
+    
     // 마커를 클릭했을 때 커스텀 오버레이를 표시합니다
-    //daum.maps.event.addListener(marker, 'click',  makeCustomOutListener(overlay, markerStatus));
-    daum.maps.event.addListener(marker, 'click', makeCustomOverListener(map, marker, overlay, markerStatus));    
+    //daum.maps.event.addListener(overlay, 'click', closeOverlay());
+    //daum.maps.event.addListener(marker, 'click', makeCustomOverListener(map, marker, overlay, markerStatus));    
     // 커스텀 오버레이를 여는 클로저함수+닫는함수 조건첨부
     function makeCustomOverListener(map, marker, overlay, markerStatus) {
         return function() {
@@ -270,6 +282,16 @@ for (var i = 0; i < positions.length; i ++) {
         };
     }
 
+    function closeOverlay() {
+        return function() {
+            if (markerStatus == true) {
+                overlay.setMap(null);
+                markerStatus = false;   
+            }
+        }
+    }
+    console.log(closeOverlay());
+
     /* 커스텀 오버레이를 닫는 클로저함수
     function makeCustomOutListener(overlay, markerStatus) {
         return function() {
@@ -280,7 +302,9 @@ for (var i = 0; i < positions.length; i ++) {
         };
     }*/
 }
-
+    
+    
+    
 //지도 밖 핀 추적 스크립트 시작
 
 /**
@@ -404,7 +428,6 @@ function MarkerTracker(map, target, icon_img) {
         textCarouselId['<%=@user_sights.name%>'] = 3;
         var target_text = target.node.textContent
         $('.carousel').carousel(textCarouselId[target_text], {interval:false});
-        console.log(target)
     };
 
     // target의 위치를 추적하는 함수
@@ -681,9 +704,54 @@ markerTracker1.run();
 markerTracker2.run();
 markerTracker3.run();
 markerTracker4.run();
-
+    //캐로슬 못움직이게
     $('.carousel').carousel({
         interval:false
+    });
+    // 캐로슬 버튼영역을 클릭했을 때 지도센터도 움직이게
+    $('.carousel-control-next').click(function() {
+        var active_id = $('li.active').attr('id');
+        var active_list_id = $('li.active').attr('data-slide-to');
+        center_arr = [dkpos1,dkpos2,dkpos3,dkpos4];
+        if (Number(active_list_id) == 3){
+            map.setCenter(center_arr[0]);
+        }
+        else {
+            map.setCenter(center_arr[Number(active_list_id)+1]);
+        }
+    });
+    $('.carousel-control-prev').click(function() {
+        var active_id = $('li.active').attr('id');
+        var active_list_id = $('li.active').attr('data-slide-to');
+        center_arr = [dkpos1,dkpos2,dkpos3,dkpos4];
+        if (Number(active_list_id) == 0){
+            map.setCenter(center_arr[3]);
+        }
+        else {
+            map.setCenter(center_arr[Number(active_list_id)-1]);
+        }
+    });
+    $('carousel-control-next-icon').click(function() {
+        var active_id = $('li.active').attr('id');
+        var active_list_id = $('li.active').attr('data-slide-to');
+        center_arr = [dkpos1,dkpos2,dkpos3,dkpos4];
+        if (Number(active_list_id) == 3){
+            map.setCenter(center_arr[0]);
+        }
+        else {
+            map.setCenter(center_arr[Number(active_list_id)+1]);
+        }
+    });
+    $('carousel-control-prev-icon').click(function() {
+        var active_id = $('li.active').attr('id');
+        var active_list_id = $('li.active').attr('data-slide-to');
+        center_arr = [dkpos1,dkpos2,dkpos3,dkpos4];
+        if (Number(active_list_id) == 0){
+            map.setCenter(center_arr[3]);
+        }
+        else {
+            map.setCenter(center_arr[Number(active_list_id)-1]);
+        }
     });
     $('#mycafeModal').click(function() {
         $('#cafeModal').modal();
@@ -725,16 +793,24 @@ markerTracker4.run();
         });
     });
 */
-    <%@expression_korean.length.times do |x|%>
-    $('button#cafe_voice_<%=x+1%>').click(function(){
-        $('audio#cafe_voice_<%=x+1%>').get(0).play();
-    });
+    <%@expression_korean_cafe_order.length.times do |x|%>
+        $('button#cafe_voice_order_<%=x+1%>').click(function(){
+            $('audio#cafe_voice_order_<%=x+1%>').get(0).play();
+        });
+    <%end%>
+    <% @expression_korean_cafe_service.length.times do |x|%>
+        $('button#cafe_voice_serve_<%=x+1%>').click(function(){
+            $('audio#cafe_voice_serve_<%=x+1%>').get(0).play();
+        });
+    <%end%>
+    <% @expression_korean_cafe_experience.length.times do |x|%>
+        $('button#cafe_voice_exp_<%=x+1%>').click(function(){
+            $('audio#cafe_voice_exp_<%=x+1%>').get(0).play();
+        });
     <%end%>
 
-    <% @expression_korean_experience.length.times do |x|%>
-    $('button#cafe_voice_exp_<%=x+1%>').click(function(){
-        $('audio#cafe_voice_exp_<%=x+1%>').get(0).play();
-    });
-    <%end%>
+    
 });
+
 </script>
+<script src="/closeTest.js"></script>

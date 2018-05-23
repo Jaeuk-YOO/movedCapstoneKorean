@@ -1,15 +1,122 @@
-<!-- restaurant Modal -->
+<!-- cafe Modal -->
 <div class="modal fade" id="restaurantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어</h5>
+        <h5 class="modal-title" id="exampleModalLabel">오늘의 한국어 in restaurant</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        레스토랑 모달입니다.
+
+        <!-- 모달 아코디언-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOneRes" data-toggle="collapse" data-target="#collapseOneRes" aria-expanded="true" aria-controls="collapseOneRes">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneRes" aria-expanded="true" aria-controls="collapseOneRes">
+                        쇼핑할 때 사용하는 표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseOneRes" class="collapse" aria-labelledby="headingOneRes" data-parent="#accordion">
+                <div class="card-body">
+                    <% expression_korean_cafe_order_index = @expression_korean_cafe_order.keys%>
+                    <% i=1 %>
+                    <%expression_korean_cafe_order_pronunciation = ["[ttatteushan americano han jan juseyo.]","[ice americano du jan juseyo.]","caffein eobneun eumlyo iss-eoyo?","yeogiseo meoggo galgeyo.","take out halgeyo.","yeongsujeung-eun beolyeojuseyo.","eumlyo chucheonhaejusil su issnayo?"]%>
+                    <% @expression_korean_cafe_order.each do |each_expression_kr, each_expression_en|%>
+                        <span style="font-size:14px;"><%= each_expression_en%></span>
+                        <div class="alert alert-primary" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean : <br><%= each_expression_kr %><br></span>
+                        </div>
+                        <div class="alert alert-warning" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean_pronunciation : <br> <%=expression_korean_cafe_order_pronunciation[i-1]%></span>
+                        </div>
+                        <audio id="cafe_voice_order_<%=i%>"><source src="https://tts-translate.kakao.com/newtone?message=<%= each_expression_kr.to_s.split.join("%20") %>"></audio>
+                        <button id="cafe_voice_order_<%=i%>" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                        <%i=i+1%>
+                    <%end%>    
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwoRes" data-toggle="collapse" data-target="#collapseTwoRes" aria-expanded="false" aria-controls="collapseTwoRes">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoRes" aria-expanded="false" aria-controls="collapseTwoRes">
+                        카페 서비스 이용할 때 사용하는 표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseTwoRes" class="collapse" aria-labelledby="headingTwoRes" data-parent="#accordion">
+                <div class="card-body"> 
+                    <% expression_korean_cafe_service_index = @expression_korean_cafe_service.keys%>
+                    <% i=1 %>
+                    <%expression_korean_cafe_service_pronunciation = ["[wifi doenayo?]","[wifi bimil beonho ga mwoyeyo]","[konsent iss-eoyo?]","[konsent eodie iss-eoyo?]"]%>
+                    <% @expression_korean_cafe_service.each do |each_expression_kr, each_expression_en|%>
+                        <span style="font-size:14px;"><%= each_expression_en%></span>
+                        <div class="alert alert-primary" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean : <br> <%= each_expression_kr %><br></span>
+                        </div>
+                        <div class="alert alert-warning" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean_pronunciation : <br> <%=expression_korean_cafe_service_pronunciation[i-1]%></span>
+                        </div>
+                        <audio id="cafe_voice_serve_<%=i%>"><source src="https://tts-translate.kakao.com/newtone?message=<%= each_expression_kr.to_s.split.join("%20") %>"></audio>
+                        <button id="cafe_voice_serve_<%=i%>" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                        <%i=i+1%>
+                    <%end%>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFourRes" data-toggle="collapse" data-target="#collapseFourRes" aria-expanded="false" aria-controls="collapseFourRes">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourRes" aria-expanded="false" aria-controls="collapseFourRes">
+                        체험카페 갔을 때 사용하는 표현
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseFourRes" class="collapse" aria-labelledby="headingFourRes" data-parent="#accordion">
+                <div class="card-body"> 
+                    <% expression_korean_cafe_experience_index = @expression_korean_cafe_experience.keys%>
+                    <% i=1 %>
+                    <%expression_korean_cafe_experience_pronunciation = ["[eotteohge iyonghanayo?]","[han sigan-e eolmaingayo?]","[jim-eun eodie dunayo? / jim-eun eodie bogwanhanayo?]","[han sigan deo iyonghago sip-eoyo. chuga yogeum-i eolmaingayo?]"]%>
+                    <% @expression_korean_cafe_experience.each do |each_expression_kr, each_expression_en|%>
+                        <span style="font-size:14px;"><%= each_expression_en%></span>
+                        <div class="alert alert-primary" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean : <br> <%= each_expression_kr %><br></span>
+                        </div>
+                        <div class="alert alert-warning" role="alert" style="margin-bottom: 5px;">
+                            <span style="font-size:14px;">- korean_pronunciation : <br> <%=expression_korean_cafe_experience_pronunciation[i-1]%></span>
+                        </div>
+                        <audio id="cafe_voice_exp_<%=i%>"><source src="https://tts-translate.kakao.com/newtone?message=<%= each_expression_kr.to_s.split.join("%20") %>"></audio>
+                        <button id="cafe_voice_exp_<%=i%>" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+                        <%i=i+1%>
+                    <%end%>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThreeRes" data-toggle="collapse" data-target="#collapseThreeRes" aria-expanded="true" aria-controls="collapseThreeRes">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThreeRes" aria-expanded="true" aria-controls="collapseThreeRes">
+                    번역하기
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseThreeRes" class="collapse" aria-labelledby="headingThreeRes" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="container">
+                    <br>
+                        <a href="/maps/user_translate" class="btn text-center btn-block" style="background-color:#E0859A; color:black;" role="button" aria-pressed="true">번역 하기</a>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>

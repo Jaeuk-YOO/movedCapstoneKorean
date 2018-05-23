@@ -1,9 +1,12 @@
 <div class="container">
 <br>
-    <h4>나의 마지막 번역 결과</h4><br><br>
-    <h5> <%=@translate_done.output%></h5><br>
-    <audio id="translate_voice_0"><source src="https://tts-translate.kakao.com/newtone?message=<%= @translate_done.output.split.join("%20") %>"></audio>
-    <button id="translate_voice_0" type="button" class="btn btn-primary btn-sm">재생하기</button><br><br>
+    <h4>My last translation result</h4><br><br>
+    <%unless @translate_done.nil?%>
+        <h5> In Korean : <%=@translate_done.output%></h5><br>
+        <audio id="translate_voice_0"><source src="https://tts-translate.kakao.com/newtone?message=<%= @translate_done.output.split.join("%20") %>"></audio>
+        <button id="translate_voice_0" type="button" class="btn btn-primary btn-sm">Play</button><br><br>
+        <a href="javascript:history.back()">Previus page</a><br><br>
+    <%end%>
 </div>
 <script>
 $('button#translate_voice_0').click(function(){

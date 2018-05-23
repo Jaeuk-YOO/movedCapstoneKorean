@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180427011500) do
+ActiveRecord::Schema.define(version: 20180513085235) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "post_id"
@@ -34,6 +34,22 @@ ActiveRecord::Schema.define(version: 20180427011500) do
     t.string   "y"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+  end
+
+  create_table "crawl_data_thumbnails", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "crawl_datum_id"
+    t.string   "src_1"
+    t.string   "src_2"
+    t.string   "src_3"
+    t.string   "src_4"
+    t.string   "src_5"
+    t.string   "src_6"
+    t.string   "src_7"
+    t.string   "src_8"
+    t.string   "src_9"
+    t.string   "src_10"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "expressions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -88,6 +104,7 @@ ActiveRecord::Schema.define(version: 20180427011500) do
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "nickname"
+    t.string   "language"
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"

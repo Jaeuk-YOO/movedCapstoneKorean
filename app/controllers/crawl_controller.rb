@@ -83,9 +83,140 @@ class CrawlController < ApplicationController
         @cd_cafe = CrawlDatum.where("category":"카페").sample(1).first
         @cd_restaurant = CrawlDatum.where("category":"식당").sample(1).first
     end
-    def xytest
-        require('nokogiri')
-        doc = '37.402056,127.108212'
+
+    def thumbnail_collect_test
+        
+        CrawlDatum.all.each do |each_data|
+            if each_data.crawl_data_thumbnails.take.nil?
+                # 비어있으면 검색시작.
+
+                # ===========================
+                # bing API 영역
+                
+                require 'net/https'
+                require 'uri'
+                require 'json'
+
+                # Replace the accessKey string value with your valid access key.
+                accessKey = "ada2ac6174cc42d99ae6e070a0c6d6ef"
+
+                uri  = "https://api.cognitive.microsoft.com"
+                path = "/bing/v7.0/images/search"
+
+                term = each_data.name
+
+                if accessKey.length != 32 then
+                    puts "Invalid Bing Search API subscription key!"
+                    abort
+                end
+
+                uri = URI(uri + path + "?q=" + URI.escape(term))
+
+                request = Net::HTTP::Get.new(uri)
+                request['Ocp-Apim-Subscription-Key'] = accessKey
+
+                response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
+                    http.request(request)
+                end
+
+                result = JSON.parse(response.body) 
+                thumbnailUrl = result["value"]
+                    # >> thumbnailUrl = { thumbnailUrl : "http://어쩌고저쩌고" , thumbnailUrl : "http://어쩌고저쩌고"}
+            
+                # bing API 영역 끝
+                # ===========================
+                
+                # data 저장 시작
+                if  (each_data.crawl_data_thumbnails.where(crawl_datum_id: each_data.id).take.nil?) && (thumbnailUrl[9].nil? == false)
+                    each_thumbnail = each_data.crawl_data_thumbnails.new
+                    each_thumbnail.crawl_datum_id = each_data.id
+                    each_thumbnail.src_1 = thumbnailUrl[0]['thumbnailUrl']
+                    each_thumbnail.src_2 = thumbnailUrl[1]['thumbnailUrl']
+                    each_thumbnail.src_3 = thumbnailUrl[2]['thumbnailUrl']
+                    each_thumbnail.src_4 = thumbnailUrl[3]['thumbnailUrl']
+                    each_thumbnail.src_5 = thumbnailUrl[4]['thumbnailUrl']
+                    each_thumbnail.src_6 = thumbnailUrl[5]['thumbnailUrl']
+                    each_thumbnail.src_7 = thumbnailUrl[6]['thumbnailUrl']
+                    each_thumbnail.src_8 = thumbnailUrl[7]['thumbnailUrl']
+                    each_thumbnail.src_9 = thumbnailUrl[8]['thumbnailUrl']
+                    each_thumbnail.src_10 = thumbnailUrl[9]['thumbnailUrl']
+                    each_thumbnail.save
+                elsif (each_data.crawl_data_thumbnails.where(crawl_datum_id: each_data.id).take.nil? == false) && (thumbnailUrl[9].nil? == false)
+                    each_thumbnail = each_data.crawl_data_thumbnails.where(crawl_datum_id: each_data.id).take
+                    each_thumbnail.src_1 = thumbnailUrl[0]['thumbnailUrl']
+                    each_thumbnail.src_2 = thumbnailUrl[1]['thumbnailUrl']
+                    each_thumbnail.src_3 = thumbnailUrl[2]['thumbnailUrl']
+                    each_thumbnail.src_4 = thumbnailUrl[3]['thumbnailUrl']
+                    each_thumbnail.src_5 = thumbnailUrl[4]['thumbnailUrl']
+                    each_thumbnail.src_6 = thumbnailUrl[5]['thumbnailUrl']
+                    each_thumbnail.src_7 = thumbnailUrl[6]['thumbnailUrl']
+                    each_thumbnail.src_8 = thumbnailUrl[7]['thumbnailUrl']
+                    each_thumbnail.src_9 = thumbnailUrl[8]['thumbnailUrl']
+                    each_thumbnail.src_10 = thumbnailUrl[9]['thumbnailUrl']
+                    each_thumbnail.save
+                end
+
+            end
+        end
+    end
+
+    def thumbnail_collect
+        
+        CrawlDatum.all.each do |each_data|
+            if each_data.crawl_data_thumbnails.take.nil?
+                # 비어있으면 검색시작.
+
+                # ===========================
+                # bing API 영역
+                
+                require 'net/https'
+                require 'uri'
+                require 'json'
+
+                # Replace the accessKey string value with your valid access key.
+                accessKey = "ada2ac6174cc42d99ae6e070a0c6d6ef"
+
+                uri  = "https://api.cognitive.microsoft.com"
+                path = "/bing/v7.0/images/search"
+
+                term = each_data.name
+
+                if accessKey.length != 32 then
+                    puts "Invalid Bing Search API subscription key!"
+                    abort
+                end
+
+                uri = URI(uri + path + "?q=" + URI.escape(term))
+
+                request = Net::HTTP::Get.new(uri)
+                request['Ocp-Apim-Subscription-Key'] = accessKey
+
+                response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
+                    http.request(request)
+                end
+
+                result = JSON.parse(response.body) 
+                thumbnailUrl = result["value"]
+                    # >> thumbnailUrl = { thumbnailUrl : "http://어쩌고저쩌고" , thumbnailUrl : "http://어쩌고저쩌고"}
+            
+                # bing API 영역 끝
+                # ===========================
+                 
+                thumbnailUrl.each_with_index do |x, index|
+                    if index < 10
+                        # 저장 시작
+                        each_thumbnail = each_data.crawl_data_thumbnails.new
+                        each_thumbnail.crawl_datum_id = each_data.id
+                        src_arr = [each_thumbnail.src_1, each_thumbnail.src_2, each_thumbnail.src_3, each_thumbnail.src_4, each_thumbnail.src_5, each_thumbnail.src_6, each_thumbnail.src_7, each_thumbnail.src_8, each_thumbnail.src_9, each_thumbnail.src_10]
+                        
+                        src_arr[index] = x['thumbnailUrl']
+                        each_thumbnail.save
+                    end
+                end 
+
+            end
+        end
+        # each_data 체크 끝.
     end
 
     def crawl_supply

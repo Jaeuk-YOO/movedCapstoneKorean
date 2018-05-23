@@ -1,7 +1,8 @@
 <div class="container">
+    <%if current_user.language == "1" %>
     <br>
     <div class="alert alert-warning" role="alert">
-        오늘은 어떤 곳으로 떠나볼까요? 공간의 특성에 따라 가볼 곳을 추천해드립니다. 관심있는 정보를 선택해주세요. 
+        오늘은 어떤 곳으로 떠나볼까요? 공간의 특성에 따라 가볼 곳을 추천해드립니다. 관심있는 정보를 선택해주세요.
     </div>
     <form action="/entrance/select_feel_post" method="POST">
         <div class="row">
@@ -13,10 +14,31 @@
             </div>
             <%end%> 
         </div>
-        <br><input type="submit" value="선택하기" class="btn btn-block btn-success">
+        <br><input type="submit" value="선택하기" class="btn btn-block btn-warning">
     </form>
     &nbsp;<br>
-</div>
+
+    <%elsif current_user.language == "2" %>
+    <br>
+    <div class="alert alert-warning" role="alert">
+        Where do you want to go today? We recommend places to visit depending on the characteristics of the space. Please select the information you are interested in.
+    </div>
+    <form action="/entrance/select_feel_post" method="POST">
+        <div class="row">
+            <%@select_list_eng.each_with_index do |(each_select_key, each_select_value), index|%>
+            <div class="col-6 p-0 border border-white" style="border-width:5px!important;">
+                <span class="p-auto" style="font-size:1rem; position:absolute; z-index:99; color:white; text-shadow: 2px 2px 6px black; padding-left: 35%; padding-top: 23%;"><%= each_select_key %></span>
+                <img src="/entrance_images/<%=each_select_value%>.jpg" class="img-check" width="100%;" name="chk<%= index %>">
+                <input type="checkbox" name="chk[]" id="chk<%= index %>" value="<%= each_select_value %>" style="display:none" autocomplete="off">
+            </div>
+            <%end%> 
+        </div>
+        <br><input type="submit" value="Select" class="btn btn-block btn-warning">
+    </form>
+    &nbsp;<br>
+    <%end%>
+<br>
+</div>  
     
 <style>
 .check

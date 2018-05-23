@@ -22,29 +22,15 @@
   <!-- webfont configure end-->
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F0B2C0;">
-      <a class="navbar-brand" href="/welcome/index">ㄹㅌㅅㅇ</a>
+      <a class="navbar-brand" href="/welcome/index"><img src="/logo.png" width=50px height=50px></img></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <%if current_user.nil?%>
           <li class="nav-item">
@@ -66,5 +52,28 @@
       </div>
     </nav>  
       <%= yield %>
+      <div class="container-fluid" style="background-color:#f8d7df; color:black">
+        <div class="row">
+          <div class="col-4">
+            <br>
+              <span style="font-size:12px;">서비스 철학</span><br>
+              <span style="font-size:12px;">팀 소개</span><br>
+              <span style="font-size:12px;">문의사항</span>
+          </div>
+          <div class="col-8">
+            <br>
+            <a href ="https://m.facebook.com/ryou9305"><i class="fab fa-facebook"></i></a> <a href="https://github.com/Jaeuk-YOO" style="color:black;"><i class="fab fa-github"></i></a> <span style="font-size:12px;"> developer : Jaeuk yoo</span><br>
+            <a href ="https://m.facebook.com/iambokeun"><i class="fab fa-facebook"></i></a> <span style="font-size:12px;"> product manager : Bokeun Kim</span><br>
+            <a href ="https://m.facebook.com/dahye.seok.5"><i class="fab fa-facebook"></i></a> <span style="font-size:12px;"> product manager : Dahye Seok</span><br>
+            <i class="fas fa-user-circle"></i> <span style="font-size:12px;"> product manager : Leehyeon Kim</span><br>
+          </div>
+          <div class="container" style="text-align:center">
+            <br>
+            <span style="font-size:12px;">본 서비스는 2018-1학기 경희대학교 외국어대학 <br>한국어학과 캡스톤디자인 결과물입니다.</span><br>
+            <span style="font-size:12px;">The MIT License (MIT) Copyright (c) 2018 Jaeuk Yoo </span>
+            <br>
+          </div>
+        </div>  
+      </div>
   </body>
 </html>
