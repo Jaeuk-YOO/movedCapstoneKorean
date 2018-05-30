@@ -30,7 +30,11 @@
             </div>
         <div class="body">
             <div class="img">
+                <%if @thumbnail_result[0] == "" %>
                 <img src="/khu_mark.jpg" width="73" height="70">
+                <%else%>
+                <img src="<%=@thumbnail_result[0]["thumbnailUrl"]%>" width="73" height="70">
+                <%end%>
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_cafe.address%></div>
@@ -49,7 +53,11 @@
             </div>
         <div class="body">
             <div class="img">
+                <%if @thumbnail_result[1] == "" %>
                 <img src="/khu_mark.jpg" width="73" height="70">
+                <%else%>
+                <img src="<%=@thumbnail_result[1]["thumbnailUrl"]%>" width="73" height="70">
+                <%end%>
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_restaurant.address%></div>
@@ -68,7 +76,11 @@
             </div>
         <div class="body">
             <div class="img">
+                <%if @thumbnail_result[2] == "" %>
                 <img src="/khu_mark.jpg" width="73" height="70">
+                <%else%>
+                <img src="<%=@thumbnail_result[2]["thumbnailUrl"]%>" width="73" height="70">
+                <%end%>
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_shopping.address%></div>
@@ -87,7 +99,11 @@
             </div>
         <div class="body">
             <div class="img">
+                <%if @thumbnail_result[3] == "" %>
                 <img src="/khu_mark.jpg" width="73" height="70">
+                <%else%>
+                <img src="<%=@thumbnail_result[3]["thumbnailUrl"]%>" width="73" height="70">
+                <%end%>
             </div>
             <div class="desc">
                 <div class="ellipsis" style="font-size:12px;"><%=@user_sights.address%></div>
@@ -151,7 +167,11 @@ var marker_positions = [
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
+            <%if @thumbnail_result[0] == ""%> 
             '                <img src="/khu_mark.jpg" width="73" height="70">' +
+            <%else%>
+            '                <img src="<%=@thumbnail_result[0]["thumbnailUrl"]%>" width="73" height="70">' +
+            <%end%>
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_cafe.address%></div>' + 
@@ -174,7 +194,11 @@ var marker_positions = [
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
+            <%if @thumbnail_result[1] == ""%> 
             '                <img src="/khu_mark.jpg" width="73" height="70">' +
+            <%else%>
+            '                <img src="<%=@thumbnail_result[1]["thumbnailUrl"]%>" width="73" height="70">' +
+            <%end%>
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_restaurant.address%></div>' + 
@@ -198,7 +222,11 @@ var marker_positions = [
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
+            <%if @thumbnail_result[2] == ""%> 
             '                <img src="/khu_mark.jpg" width="73" height="70">' +
+            <%else%>
+            '                <img src="<%=@thumbnail_result[2]["thumbnailUrl"]%>" width="73" height="70">' +
+            <%end%>
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_shopping.address%></div>' + 
@@ -221,7 +249,11 @@ var marker_positions = [
             '        </div>' + 
             '        <div class="body">' + 
             '            <div class="img">' +
+            <%if @thumbnail_result[3] == ""%> 
             '                <img src="/khu_mark.jpg" width="73" height="70">' +
+            <%else%>
+            '                <img src="<%=@thumbnail_result[3]["thumbnailUrl"]%>" width="73" height="70">' +
+            <%end%>
             '           </div>' + 
             '            <div class="desc">' + 
             '                <div class="ellipsis"><%=@user_sights.address%></div>' + 

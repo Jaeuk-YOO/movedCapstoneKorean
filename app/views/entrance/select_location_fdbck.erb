@@ -1,0 +1,265 @@
+<br>
+<div class="container">
+  <!-- for korean user -->
+  <%if current_user.language == "1" %>
+    <div class="alert alert-warning" role="alert">
+      오늘은 어떤 곳으로 떠나볼까요? 가고 싶은 곳을 클릭해서 지역 정보를 확인하고, 선택하기 버튼을 눌러 선택해주세요. 
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              서촌, 북촌, 인사동
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+              <h5>소개</h5>
+              북촌은 도심을 흐르는 청계천과 종로의 북쪽 방면이라는 의미를 지니고 있습니다. 한국의 전통 가옥인 한옥들이 들어서 있는 마을이에요. 조용하고 한국적인 분위기로 인해 남녀노소 구분 없이 인기가 많은 곳이죠.<br> 
+              서촌은 경복궁 서쪽에 있는 마을을 일컫는 별칭입니다. 고궁과 가깝고 청와대와도 가깝기 때문에 오랫동안 개발이 제한되어 과거의 것이 많이 남게 되었던 지역이죠. 그렇기에 오래된 시설들이 지금에 와서 볼거리가 되어 최근에 관광명소로 떠오르기 시작한 곳이죠.
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 1</h5>
+              당신이 여행객이라면 북촌의 게스트하우스 시설이용을 추천드려요. 이 곳들은 각기 특색있는 문화 체험 프로그램과 한국 전통음식을 준비하고 있거든요. 숙소 홈페이지에서 정보를 확인한 후 본인 취향에 알맞은 숙소를 선택하면 끝!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 2</h5>
+              서촌과 경복궁, 북촌은 모두 직선상으로 이어져있기 때문에 세 곳을 묶어 한 번에 관광하는 것을 추천!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 3</h5>
+              서촌에 가서 골목골목을 돌아다닐 때는 이정표가 많이 없기 때문에 지나가는 사람에게 길을 물어보는 것이 더 빨라요!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <h5>Caution!</h5>
+              서촌과 북촌은 골목 안으로 들어갈수록 주거지역이 많으니 주의하도록 합시다! 주민들의 사생활을 지켜줍시다!
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+              <input type="text" value="seochon" name="region" style="display:none;">
+              <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              홍대 근처
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+              <h5>소개</h5>
+              홍대는 홍익대학교 근처를 보통 지칭하는 공간으로 줄여서 홍대라고 불러요. 이 곳은 서울을 대표하는 '젊음의 거리'예요. 음악과 그림, 클럽 등 다양한 문화가 소비되는 장소이죠. 낮, 밤, 평일, 주말할 것 없이 활기차고 젊은 기운을 느끼고 싶다면 이 곳으로!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 1</h5>
+              주말에 홍대를 방문한다면, 벽화거리와 주말마다 열리는 홍대 놀이터 앞 플리마켓 등을 둘러보는 것을 추천해요! 특색있고 다양한 제품을 만나볼 수 있어요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 2</h5>
+              근처의 '경의선 숲길'이 핫플레이스로 자리매김하기도 했죠. 경의선 숲길은 '센트럴파크'를 패러디한 '연트럴파크'라 불리며, 숲길 주변으로 다양한 카페, 펍, 상점들이 펼쳐져 있으며 개성 있는 요리들로 유명해요! 곳곳에서 산책을 하거나 돗자리를 펴고 음악을 들으며 맥주를 마시는 사람들을 볼 수 있으니 돗자리를 챙겨가면 좋아요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 3</h5>
+              홍대는 한국 클럽의 메카라고 할 수 있는 곳이에요. 홍대 클럽에서는 인기 DJ들의 디제잉과 인디밴드 공연을 만날 수 있답니다. 클럽과 더불어 홍대 거리의 버스킹 공연도 홍대의 빼놓을 수 없는 매력이죠.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <h5>Caution!</h5>
+              굉장히 광범위하고 골목이 복잡한 지역이기 때문에 길을 잃기 쉬워요. 그렇기 때문에 홍대입구역 9번 출구에서 나와 사거리에서 왼쪽으로 꺾으면 나오는 관광안내소에서 도움을 받는 것이 좋아요.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+              <input type="text" value="hongdae" name="region" style="display:none;">
+              <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              명동
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>소개</h5>
+              명동은 거대한 쇼핑도시를 연상케 하는 공간으로 한국 쇼핑과 패션의 중심지입니다. 명동거리에는 한국인보다 외국인이 더 많을 정도이고, 그만큼 한류 팬들에게는 한국 관광의 필수 코스가 되었죠.
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <h5>역사 문화</h5>
+              역사적으로, 조선시대 때는 명동은 주택지역이었으나 일제강점기 때 상업지구로 변모하여 서울의 번화가가 되기 시작했어요. 그 후 광복과 6ㆍ25전쟁을 거치며 1956년 이후에 대형 백화점과 각종 금융기관, 사무실이 들어서면서 지금의 모습을 갖추게 되었어요. 명동 중심거리에서 조금 오른쪽으로 나와 가다보면 명동성당이라는 곳이 있는데 이 성당은 한국 최초의 본당(parish)으로, 한국 천주교를 대변하는 성당으로 명동의 랜드마크이기도 해요.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 1</h5>
+              거의 모든 가게의 직원들이 영어(중국어, 일본어)를 구사할 수 있기 때문에 의사소통에 있어서 큰 걱정을 하지 않아도 됩니다.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 2</h5>
+              Tax Free가 되는 가게가 많아요. 명동에서 쇼핑할 때는 여권을 챙겨가서 이득을 챙길 수 있도록 해요!
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 3</h5>
+              명동에는 환전소가 많아요. 급하게 한국돈이 필요하고, 환전할 수 있는 돈이 있다면, 카드 대출 및 외환 환전 수수료보다 싼 값으로 환전할 수 있어요. 
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 4</h5>
+              쇼핑 외에도 골목골목에는 다양한 음식점이 있으며 점심이 조금 지나면 거리에는 수많은 노점상들이 오픈하기 때문에 구경하는 재미가 쏠쏠하죠. 보통 밤 10시가 지나면 가게들이 문을 닫기 때문에 너무 늦지 않게 방문하는 것이 좋아요.
+            </div>
+            <div class="alert alert-danger" role="alert">
+            <h5>Caution!</h5>
+              사람이 많은 만큼 소매치기가 있는 곳이라 소지품을 잘 챙겨다녀야 해요. 명동에는 경찰서가 있기 때문에 경찰서를 미리 확인을 해두는 것이 좋습니다.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+            <input type="text" value="myeongdong" name="region" style="display:none;">
+            <button type="submit" class="btn btn-light">선택하기</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <%elsif current_user.language == "2" %>
+  <!-- for not korean user -->
+    <div class="alert alert-warning" role="alert">
+      Where do you want to go today? Click the place you want to go to check the area information and press the "Select button" to select it.
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h5 class="mb-0" style="text-align:center;">
+            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span>서촌, 북촌, 인사동 <br> (Seochon, Bukchon, Insa-dong)</span>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+              <h5>Introduction</h5>
+              Bukchon has the meaning of the north side of Cheonggyecheon Stream and Jongno flowing in the city center. It is a village where Korean traditional houses are housed. It's a quiet and Korean atmosphere, and it's popular among both men and women.<br>
+              Seocheon is an alias for the town in the west of Kyungbok Palace. Because it is close to the old palace and close to the Blue House, it is a region where development has been limited for a long time and many things have been left in the past. That's why old facilities have come to be seen and become a popular sightseeing spot in recent years.
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 1</h5>
+              If you are a traveler, We recommend you to use Bukchon guesthouse facilities. Each of these places has a unique cultural experience program and Korean traditional food. After checking the information on the homepage, choose the accommodation that suits your taste!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 2</h5>
+              Seochon, Gyeongbokgung and Bukchon are all connected in a straight line, so We recommend you to tie three places and visit at one time!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 3</h5>
+              It is faster to ask a passerby for directions because there are not many milestones when you go to Seochon and go around an alley.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <h5>Caution!</h5>
+              Let's be careful because Seochon and Bukchon have many residential areas as they enter the alley! Let's keep the privacy of the residents!
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+              <input type="text" value="seochon" name="region" style="display:none;">
+              <button type="submit" class="btn btn-light">Select</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h5 class="mb-0" style="text-align:center;">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              홍대 <br> (nearby Hongik University)
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>Introduction</h5>
+              Hongdae is abbreviated as Hongdaek University, and it is called Hongdae. This is the 'youthful street' that represents Seoul. It's a place where music, painting, clubs, and other cultures are consumed. If you want to feel energetic and youthful, day, night, weekday, and weekend, go to this place! 
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 1</h5>
+              If you visit Hongdae on the weekend, I recommend you to look around the mural street and the Hongdae playground front placard which is held every weekend! You can meet a wide variety of products!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 2</h5>
+              The nearby 'Gyeongui Line Forest' was positioned as a hot place. The Gyeongui Line is called 'Yeon-tral Park' which is a parody of 'Central Park'. There are various cafes, pubs and shops around the forest road and famous for its unique dishes! You can see people walking around, spreading matting, listening to music and drinking beer, so it's good to take care of your mats!
+            </div>
+            <div class="alert alert-primary" role="alert">
+              <h5>Tip 3</h5>
+              Hongdae is a mecca for Korean clubs. In Hongdae club, you can meet popular DJ's DJing and indie band performances. In addition to clubs, bus kings on Hongdae street are a must for Hongdae.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <h5>Caution!</h5>
+              It is very easy to get lost because it is a very wide area and the area is very complicated. Therefore, it is better to get help from the tourist information center that comes out of exit 9 of Hongdae-dong area and turn left at the intersection.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+              <input type="text" value="hongdae" name="region" style="display:none;">
+              <button type="submit" class="btn btn-light">Select</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h5 class="mb-0" style="text-align:center;">
+            <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              명동 <br> (Myeong-dong)
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="alert alert-success" role="alert">
+            <h5>Introduction</h5>
+              Myeong-dong is the center of Korean fashion and shopping. Myeong-dong is a space reminiscent of a huge shopping city. You can see more foreigners than Koreans on the street. That's why Myeong-dong became one of the most popular places for visitiors.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 1</h5>
+              Almost every employees can speak English, Chinese or Japanese. Also, you can easily see translated menus. Communication would not be a problem in Myeong-dong.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 2</h5>
+              A lot of shops provide 'Tax Free Service'. Take your passport and get a benefit.
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 3</h5>
+              There are a lot of exchange booths in Myeong-dong. If you need Korean money urgently, check the nearest exchange booths.  
+            </div>
+            <div class="alert alert-primary" role="alert">
+            <h5>Tip 4</h5>
+              Except shopping, there are a lot of restaurants at every corner of the street. Also, around lunch time, street vendors starts to sell various foods. However, they usually close their business after 10pm, so don't be late.
+            </div>
+            <div class="alert alert-danger" role="alert">
+            <h5>Caution!</h5>
+              Because there are a lot of people on the street, be cautious about pickpocket. There is a police office on Myeong-dong street, so it would be useful to know the location.
+            </div>
+            <form action="/entrance/select_location_post" method="POST">
+            <input type="text" value="myeongdong" name="region" style="display:none;">
+            <button type="submit" class="btn btn-light">Select</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <%end%>
+  <br>
+</div>
+    
+<style>
+.check
+{
+  opacity:0.5;
+	color:#996;	
+}
+</style>

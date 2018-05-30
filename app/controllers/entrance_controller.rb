@@ -41,4 +41,8 @@ class EntranceController < ApplicationController
     end
     def select_traditional_post
     end
+
+    def select_location_fdbck
+        
+    end
 end

@@ -41,62 +41,75 @@ class MapsController < ApplicationController
         @expression_korean_cafe_experience = {"어떻게 이용하나요?":"How can I use this? play?", "한 시간에 얼마인가요?":"How much is it per hour?", "짐은 어디에 두나요? 짐은 어디에 보관하나요?":"Where can I keep my luggage?", "한 시간 더 이용하고 싶어요. 추가 요금이 얼마인가요?":"I'd like to play it for one more hour. (how much is it cost?) How much extra would it be"}
     
         @expression_korean_shopping_order = {}
+        
         #이미지 서치 합치기 테스트
         #.each do |each_data|
         #if each_data.crawl_data_thumbnails.where(crawl_datum_id: each_data.id).take.nil?
         # if @user_restaurant.crawl_data_thumbnails.nil? 
         
-        #    require 'net/https'
-        #    require 'uri'
-        #    require 'json'
+            require 'net/https'
+            require 'uri'
+            require 'json'
 
             # **********************************************
             # *** Update or verify the following values. ***
             # **********************************************
 
             # Replace the accessKey string value with your valid access key.
-        #    accessKey = ""
+            accessKey = ""
 
             # Verify the endpoint URI.  At this writing, only one endpoint is used for Bing
             # search APIs.  In the future, regional endpoints may be available.  If you
             # encounter unexpected authorization errors, double-check this value against
             # the endpoint for your Bing Search instance in your Azure dashboard.
+            thumbnail_target = [@user_cafe.name, @user_restaurant.name, @user_shopping.name, @user_sights.name]
+            @thumbnail_result = []
+            
+            thumbnail_target.each do |each_term|
 
-        #    uri  = "https://api.cognitive.microsoft.com"
-        #    path = "/bing/v7.0/images/search"
+            uri  = "https://api.cognitive.microsoft.com"
+            path = "/bing/v7.0/images/search"
+            
+                term = each_term
+                puts each_term
+                if accessKey.length != 32 then
+                    puts "Invalid Bing Search API subscription key!"
+                    puts "Please paste yours into the source code."
+                    abort
+                end
 
-        #    term = @user_restaurant.name
+                uri = URI(uri + path + "?q=" + URI.escape(term))
 
-        #    if accessKey.length != 32 then
-        #        puts "Invalid Bing Search API subscription key!"
-        #        puts "Please paste yours into the source code."
-        #        abort
-        #    end
+                #puts "Searching images for: " + term
 
-        #    uri = URI(uri + path + "?q=" + URI.escape(term))
+                request = Net::HTTP::Get.new(uri)
+                request['Ocp-Apim-Subscription-Key'] = accessKey
 
-            #puts "Searching images for: " + term
+                response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
+                    http.request(request)
+                end
 
-        #    request = Net::HTTP::Get.new(uri)
-        #    request['Ocp-Apim-Subscription-Key'] = accessKey
+                #puts "\nRelevant Headers:\n\n"
+                #response.each_header do |key, value|
+                #    # header names are coerced to lowercase
+                #    if key.start_with?("bingapis-") or key.start_with?("x-msedge-") then
+                #        puts key + ": " + value
+                #    end
+                #end
 
-        #    response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
-        #        http.request(request)
-        #    end
+                #puts "\nJSON Response:\n\n"
+                #puts JSON::pretty_generate(JSON(response.body))
 
-            #puts "\nRelevant Headers:\n\n"
-            #response.each_header do |key, value|
-            #    # header names are coerced to lowercase
-            #    if key.start_with?("bingapis-") or key.start_with?("x-msedge-") then
-            #        puts key + ": " + value
-            #    end
-            #end
-
-            #puts "\nJSON Response:\n\n"
-            #puts JSON::pretty_generate(JSON(response.body))
-
-        #    result = JSON.parse(response.body) 
-        #    @thumbnailUrl = result["value"]
+                result = JSON.parse(response.body) 
+                puts result
+                if result["value"] == []     
+                    @thumbnail_result.push("")
+                else
+                    @thumbnail_result.push(result["value"][0])
+                end
+            end
+                puts @thumbnail_result
+                # @thumbnailUrl = result["value"]
         #elsif @user_restaurant.crawl_data_thumbnails.nil?  == false
         #    @user_restaurant_stored = @user_restaurant.crawl_data_thumbnails.all
         #end
