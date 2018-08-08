@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>루트 서울</title>
+    <title>Wonder Suwon</title>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="<%=asset_path 'favicon_32_blue.png'%>">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
@@ -12,17 +13,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script src="/assets/slider.js"></script>
   </head>
 
   <body>
-  
-  <!--webfont configure -->
-  <style>@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);</style>
-  <style>body, div, button{ font-family: 'Noto Sans KR', sans-serif; }</style>
-  <!-- webfont configure end-->
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F0B2C0;">
-      <a class="navbar-brand" href="/welcome/index"><img src="/logo.png" width=50px height=50px></img></a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/welcome/index"><img src="<%=asset_path 'logo_3.svg'%>"</img></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,13 +43,13 @@
           <%end%>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="margin-bottom: 15px;">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>  
+    </nav>
       <%= yield %>
-      <div class="container-fluid" style="background-color:#f8d7df; color:black">
+      <div class="container-fluid" style="background-color: a9aba9; color:black">
         <div class="row">
           <div class="col-4">
             <br>
@@ -73,7 +70,7 @@
             <span style="font-size:12px;">The MIT License (MIT) Copyright (c) 2018 Jaeuk Yoo </span>
             <br>
           </div>
-        </div>  
+        </div>
       </div>
   </body>
 </html>

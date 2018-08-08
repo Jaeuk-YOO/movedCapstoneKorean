@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>루트 서울</title>
+    <title>Wonder Suwon</title>
+    <link rel="icon" type="image/x-icon" href="<%=asset_path 'favicon_32_blue.png'%>">
+
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-    
+    <script src="/assets/slider.js"></script>
   </head>
 
 <body>
@@ -27,12 +30,12 @@
   <div class="container">
   <br><br><br><br><br>
     <div id="typed-strings" style="text-align:center;">
-      <span class="typed" style="color:white; font-size:2rem;"></span>
+      <span class="typed" style="color:white; font-size:3rem;"></span>
     </div>
     <script>
     $(function(){
       $(".typed").typed({
-        strings: ["루트 서울", "route seoul", "√ 서울", "√ seoul", "ㄹㅌㅅㅇ"],
+        strings: ["원더 수원", "Wonder Suwon", "ㅇㄷㅅㅇ"],
         typeSpeed: 150,
         backDelay: 1000,
         backSpeed: 100,
@@ -77,14 +80,14 @@
     </style>
   </div>
   <div class= "container" style="display:table; text-align:center; width:100%; height:70%; position:absolute;">
-    <div style="display:table-cell; padding-top:70%; width:100%; height:100%;"> 
-      <a href="/entrance/select_location" class="btn text-center btn-block" style="background-color:#E0859A; color:black;" role="button" aria-pressed="true">로그인 하기</a>
+    <div style="display:table-cell; padding-top:70%; width:100%; height:100%;">
+      <a href="/entrance/select_location" class="btn text-center btn-block" style="background-color:#1a2f87; color:fff; opacity:0.9; padding: 8px 0; font-weight:400;" role="button" aria-pressed="true">로그인 하기</a>
   </div>
 </div>
 
-<script> 
+<script>
   $(document).ready(function(){
-    document.getElementById('myvideo').play();  	
+    document.getElementById('myvideo').play();
 	});
 </script>
 
