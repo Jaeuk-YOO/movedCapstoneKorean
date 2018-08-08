@@ -5,7 +5,7 @@ window.addEventListener('load', onWndLoad, false);
 
 function onWndLoad() {
 
-    var slider = document.querySelector('.slider');
+    var slider = document.querySelector('.select-slider');
     var sliders = slider.children;
 
     var initX = null;
